@@ -69,7 +69,6 @@ window.SITE_CONFIG = {
     // ── IDs (external profiles) ───────────────────────────────────
     ids: {
         scholar: "usUecnoAAAAJ",
-        scopus:  "57218251509",
         orcid:   "0000-0002-8370-9562",
         github:  "ScholarlyBrightMinds",
         email:   "Ahmad.almeslamani@aau.ac.ae"
@@ -78,7 +77,6 @@ window.SITE_CONFIG = {
     // ── Social links ──────────────────────────────────────────────
     social: [
         { key: "scholar", label: "Google Scholar", url: "https://scholar.google.com/citations?user=usUecnoAAAAJ&hl=en" },
-        { key: "scopus",  label: "Scopus",         url: "https://www.scopus.com/authid/detail.uri?authorId=57218251509" },
         { key: "orcid",   label: "ORCID",          url: "https://orcid.org/0000-0002-8370-9562" },
         { key: "github",  label: "GitHub",         url: "https://github.com/ScholarlyBrightMinds" },
         { key: "email",   label: "Email",          url: "mailto:Ahmad.almeslamani@aau.ac.ae" }
