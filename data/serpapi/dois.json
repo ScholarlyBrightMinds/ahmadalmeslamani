@@ -1,0 +1,934 @@
+{
+  "737e9406c927d621": {
+    "no_match_at": "2026-05-18T14:27:15+00:00"
+  },
+  "43be2d40c32b5935": {
+    "doi": "10.1089/tmj.2020.0283",
+    "confidence": 1.0,
+    "matched_title": "Evaluation of Telepharmacy Services in Light of COVID-19",
+    "matched_year": 2021,
+    "matched_at": "2026-05-18T14:27:17+00:00"
+  },
+  "13dc11a386f44581": {
+    "doi": "10.1080/13696998.2023.2249757",
+    "confidence": 1.0,
+    "matched_title": "Technical and regulatory challenges of digital health implementation in developing countries",
+    "matched_year": 2023,
+    "matched_at": "2026-05-18T14:27:18+00:00"
+  },
+  "b2556f052d420095": {
+    "doi": "10.1080/07853890.2024.2362869",
+    "confidence": 1.0,
+    "matched_title": "Machine learning in infectious diseases: potential applications and limitations",
+    "matched_year": 2024,
+    "matched_at": "2026-05-18T14:27:20+00:00"
+  },
+  "5bf38f00366f0132": {
+    "doi": "10.18549/pharmpract.2020.4.2111",
+    "confidence": 1.0,
+    "matched_title": "Dispensing errors in community pharmacies in the United Arab Emirates: investigating incidence, types, severity, and causes",
+    "matched_year": 2020,
+    "matched_at": "2026-05-18T14:27:21+00:00"
+  },
+  "03c1ff6e95907fee": {
+    "doi": "10.1080/14740338.2023.2224558",
+    "confidence": 1.0,
+    "matched_title": "Underreporting of Adverse Drug Events: a Look into the Extent, Causes, and Potential Solutions",
+    "matched_year": 2023,
+    "matched_at": "2026-05-18T14:27:23+00:00"
+  },
+  "9e4100536254651f": {
+    "doi": "10.1007/s11096-020-01126-w",
+    "confidence": 1.0,
+    "matched_title": "Incidence, nature, severity, and causes of dispensing errors in community pharmacies in Jordan",
+    "matched_year": 2020,
+    "matched_at": "2026-05-18T14:27:25+00:00"
+  },
+  "1b1b59b2ca4b6cde": {
+    "doi": "10.1080/13696998.2023.2265245",
+    "confidence": 1.0,
+    "matched_title": "Artificial intelligence (AI) in pharmacy: an overview of innovations",
+    "matched_year": 2023,
+    "matched_at": "2026-05-18T14:27:27+00:00"
+  },
+  "438b1b1688756860": {
+    "doi": "10.1155/2022/5762299",
+    "confidence": 1.0,
+    "matched_title": "Caffeine Consumption among Various University Students in the UAE, Exploring the Frequencies, Different Sources and Reporting Adverse Effects and Withdrawal Symptoms",
+    "matched_year": 2022,
+    "matched_at": "2026-05-18T14:27:28+00:00"
+  },
+  "d32dfe9fbecc2709": {
+    "doi": "10.1016/j.japh.2022.05.020",
+    "confidence": 1.0,
+    "matched_title": "The patterns and determinants of telemedicine use during the COVID-19 crisis: A nationwide study",
+    "matched_year": 2022,
+    "matched_at": "2026-05-18T14:27:30+00:00"
+  },
+  "071816109284aeb3": {
+    "doi": "10.1080/13696998.2023.2249758",
+    "confidence": 1.0,
+    "matched_title": "Applications of AI in pharmacy practice: a look at hospital and community settings",
+    "matched_year": 2023,
+    "matched_at": "2026-05-18T14:27:32+00:00"
+  },
+  "98c978a9635dd8cd": {
+    "doi": "10.1080/13696998.2023.2285186",
+    "confidence": 1.0,
+    "matched_title": "Beyond implementation: the long-term economic impact of AI in healthcare",
+    "matched_year": 2023,
+    "matched_at": "2026-05-18T14:27:33+00:00"
+  },
+  "7b613f6017e33b60": {
+    "doi": "10.1111/ijcp.14563",
+    "confidence": 1.0,
+    "matched_title": "An emergency plan for management of COVID‐19 patients in rural areas",
+    "matched_year": 2021,
+    "matched_at": "2026-05-18T14:27:35+00:00"
+  },
+  "d4f4734570b1c31a": {
+    "doi": "10.1093/ijpp/riaa003",
+    "confidence": 1.0,
+    "matched_title": "The evolving role of community pharmacists during COVID-19 in the UAE; assessing preparedness and knowledge",
+    "matched_year": 2020,
+    "matched_at": "2026-05-18T14:27:36+00:00"
+  },
+  "47abaac6cc00cc0a": {
+    "doi": "10.1007/s10900-020-00896-8",
+    "confidence": 1.0,
+    "matched_title": "Knowledge and Beliefs of Jordanian Community Toward E-cigarettes: A National Survey",
+    "matched_year": 2020,
+    "matched_at": "2026-05-18T14:27:38+00:00"
+  },
+  "7289d0b89a750765": {
+    "doi": "10.1016/j.japh.2021.02.003",
+    "confidence": 1.0,
+    "matched_title": "Virtual pharmacist interventions on abuse of over-the-counter medications during COVID-19 versus traditional pharmacist interventions",
+    "matched_year": 2021,
+    "matched_at": "2026-05-18T14:27:39+00:00"
+  },
+  "a4681b6289336bfc": {
+    "doi": "10.1016/j.jvacx.2021.100135",
+    "confidence": 1.0,
+    "matched_title": "Pharmacists-physicians collaborative intervention to reduce vaccine hesitancy and resistance: A randomized controlled trial",
+    "matched_year": 2022,
+    "matched_at": "2026-05-18T14:27:41+00:00"
+  },
+  "f306bfab6e5813f1": {
+    "doi": "10.1177/0018578720942231",
+    "confidence": 1.0,
+    "matched_title": "The Role of Clinical Pharmacy in Preventing Prescribing Errors in the Emergency Department of a Governmental Hospital in Jordan: A Pre-Post Study",
+    "matched_year": 2020,
+    "matched_at": "2026-05-18T14:27:42+00:00"
+  },
+  "5d6e738a58a5f772": {
+    "doi": "10.1007/s10900-021-00969-2",
+    "confidence": 1.0,
+    "matched_title": "Knowledge, Attitudes, and Practices Concerning Breast Cancer and Self Examination Among Females in UAE",
+    "matched_year": 2021,
+    "matched_at": "2026-05-18T14:27:44+00:00"
+  },
+  "ac551a799def51a0": {
+    "doi": "10.1111/jphs.12376",
+    "confidence": 1.0,
+    "matched_title": "Investigating prescribing errors in the emergency department of a large governmental hospital in Jordan",
+    "matched_year": 2020,
+    "matched_at": "2026-05-18T14:27:46+00:00"
+  },
+  "9427836c756f7098": {
+    "doi": "10.56499/jppres20.902_8.6.525",
+    "confidence": 1.0,
+    "matched_title": "Herbal medicine use in the Jordanian population: A nationally representative cross-sectional survey",
+    "matched_year": 2020,
+    "matched_at": "2026-05-18T14:27:48+00:00"
+  },
+  "00f18c2d20192229": {
+    "doi": "10.1007/s40261-022-01191-1",
+    "confidence": 1.0,
+    "matched_title": "Active Safety Surveillance of Four Types of COVID-19 Vaccines: A National Study from Jordan",
+    "matched_year": 2022,
+    "matched_at": "2026-05-18T14:27:50+00:00"
+  },
+  "13cd41614882dca7": {
+    "doi": "10.1080/13696998.2024.2302254",
+    "confidence": 1.0,
+    "matched_title": "Why are digital health policies crucial?",
+    "matched_year": 2024,
+    "matched_at": "2026-05-18T14:28:02+00:00"
+  },
+  "5b545900680a36b7": {
+    "doi": "10.1080/14787210.2023.2268835",
+    "confidence": 0.995,
+    "matched_title": "Antibiotic resistance in low- and middle-income countries: current practices and its global implications",
+    "matched_year": 2023,
+    "matched_at": "2026-05-18T14:28:03+00:00"
+  },
+  "7c3e189c5925e686": {
+    "doi": "10.1007/s40267-020-00797-9",
+    "confidence": 1.0,
+    "matched_title": "Community pharmacists’ knowledge of and attitudes toward antibiotic use, resistance, and self-medication in Jordan",
+    "matched_year": 2020,
+    "matched_at": "2026-05-18T14:28:05+00:00"
+  },
+  "a2c362eca2501cf4": {
+    "doi": "10.2174/1745017902117010001",
+    "confidence": 1.0,
+    "matched_title": "Assessment of Extrapyramidal Symptoms Associated with Psychotropics Pharmacological Treatments, and Associated Risk Factors",
+    "matched_year": 2021,
+    "matched_at": "2026-05-18T14:28:06+00:00"
+  },
+  "d165e061487a6014": {
+    "doi": "10.1080/13696998.2024.2315864",
+    "confidence": 1.0,
+    "matched_title": "Insights into artificial intelligence utilisation in drug discovery",
+    "matched_year": 2024,
+    "matched_at": "2026-05-18T14:28:08+00:00"
+  },
+  "ab07948b7abd50b8": {
+    "doi": "10.18549/pharmpract.2022.2.2656",
+    "confidence": 1.0,
+    "matched_title": "What has changed in the pharmaceutical care after COVID-19: Pharmacists’ perspective",
+    "matched_year": 2022,
+    "matched_at": "2026-05-18T14:28:09+00:00"
+  },
+  "47c0747138f8b178": {
+    "doi": "10.18549/pharmpract.2022.4.2734",
+    "confidence": 1.0,
+    "matched_title": "The impact of telepharmacy on hypertension management in the United Arab Emirates",
+    "matched_year": 2022,
+    "matched_at": "2026-05-18T14:28:10+00:00"
+  },
+  "8c1e45ffd0d2b0c6": {
+    "doi": "10.1177/00185787231158777",
+    "confidence": 1.0,
+    "matched_title": "The Abuse and Misuse of Over-the-Counter Medicines During COVID-19",
+    "matched_year": 2023,
+    "matched_at": "2026-05-18T14:28:11+00:00"
+  },
+  "cfd1a53641a477e3": {
+    "doi": "10.1080/14740338.2023.2181954",
+    "confidence": 1.0,
+    "matched_title": "Medication errors during a pandemic: what have we learnt?",
+    "matched_year": 2023,
+    "matched_at": "2026-05-18T14:28:12+00:00"
+  },
+  "727fe719552baa9a": {
+    "doi": "10.1080/13696998.2023.2266955",
+    "confidence": 1.0,
+    "matched_title": "Gaps in digital health policies: an insight into the current landscape",
+    "matched_year": 2023,
+    "matched_at": "2026-05-18T14:28:14+00:00"
+  },
+  "0f064b73920b04bf": {
+    "doi": "10.3390/vaccines11050985",
+    "confidence": 1.0,
+    "matched_title": "Real-World Effectiveness of Four Types of COVID-19 Vaccines",
+    "matched_year": 2023,
+    "matched_at": "2026-05-18T14:28:16+00:00"
+  },
+  "b116a44c2e32af46": {
+    "doi": "10.1016/j.vaccine.2022.03.003",
+    "confidence": 1.0,
+    "matched_title": "IgA nephropathy in a pediatric patient after receiving the first dose of Pfizer-BioNTech COVID-19 vaccine",
+    "matched_year": 2022,
+    "matched_at": "2026-05-18T14:28:18+00:00"
+  },
+  "caae1556757803ba": {
+    "doi": "10.1080/21645515.2024.2362450",
+    "confidence": 1.0,
+    "matched_title": "Bridging the gap: The future of biosimilars regulations",
+    "matched_year": 2024,
+    "matched_at": "2026-05-18T14:28:19+00:00"
+  },
+  "09f4f7c82e037dd9": {
+    "doi": "10.1080/23808993.2023.2292988",
+    "confidence": 1.0,
+    "matched_title": "The future of precision medicine in oncology",
+    "matched_year": 2023,
+    "matched_at": "2026-05-18T14:28:21+00:00"
+  },
+  "ea3cdf83e18c6b43": {
+    "doi": "10.1080/13696998.2023.2277072",
+    "confidence": 1.0,
+    "matched_title": "How AI is advancing asthma management? Insights into economic and clinical aspects",
+    "matched_year": 2023,
+    "matched_at": "2026-05-18T14:28:23+00:00"
+  },
+  "864ce0a5c5872c64": {
+    "doi": "10.1080/14712598.2023.2276288",
+    "confidence": 1.0,
+    "matched_title": "Antibody-drug conjugates in oncology: insights into Current challenges",
+    "matched_year": 2023,
+    "matched_at": "2026-05-18T14:28:24+00:00"
+  },
+  "466d56e52c0f67ff": {
+    "doi": "10.1080/14737167.2024.2321242",
+    "confidence": 1.0,
+    "matched_title": "Policy solutions for medication non-adherence: what can governments do?",
+    "matched_year": 2024,
+    "matched_at": "2026-05-18T14:28:26+00:00"
+  },
+  "e31fb460bd29f953": {
+    "doi": "10.1080/17425255.2023.2294939",
+    "confidence": 1.0,
+    "matched_title": "Overcoming barriers to machine learning applications in toxicity prediction",
+    "matched_year": 2023,
+    "matched_at": "2026-05-18T14:28:28+00:00"
+  },
+  "3442d96a5b0ba803": {
+    "doi": "10.1080/20523211.2024.2372040",
+    "confidence": 1.0,
+    "matched_title": "The pharmacists’ interventions after a Drug and Therapeutics Committee (DTC) establishment during the COVID-19 pandemic",
+    "matched_year": 2024,
+    "matched_at": "2026-05-18T14:28:29+00:00"
+  },
+  "62cebcd99305f781": {
+    "doi": "10.1080/14737167.2024.2331047",
+    "confidence": 1.0,
+    "matched_title": "Barriers to digital endpoints in data collection in low and middle-income countries",
+    "matched_year": 2024,
+    "matched_at": "2026-05-18T14:28:31+00:00"
+  },
+  "92ee118ea1fbdeaa": {
+    "doi": "10.1177/00185787211032354",
+    "confidence": 1.0,
+    "matched_title": "Virtual Coaching Delivered by Pharmacists to Prevent COVID-19 Transmission",
+    "matched_year": 2021,
+    "matched_at": "2026-05-18T14:28:32+00:00"
+  },
+  "fa1b3eb7245d3b79": {
+    "doi": "10.1038/s41598-025-03051-2",
+    "confidence": 1.0,
+    "matched_title": "Readiness, knowledge, and attitudes of healthcare professionals in Jordan toward Monkeypox: a cross-sectional survey",
+    "matched_year": 2025,
+    "matched_at": "2026-05-18T14:28:34+00:00"
+  },
+  "436cffe449c11609": {
+    "doi": "10.1080/13696998.2023.2224018",
+    "confidence": 1.0,
+    "matched_title": "The role of machine learning in healthcare responses to pandemics: maximizing benefits and filling gaps",
+    "matched_year": 2023,
+    "matched_at": "2026-05-18T14:28:35+00:00"
+  },
+  "336c89272906cd47": {
+    "no_match_at": "2026-05-18T14:28:37+00:00"
+  },
+  "05410111b52846d7": {
+    "doi": "10.1080/14740338.2024.2337745",
+    "confidence": 1.0,
+    "matched_title": "Adverse drug event reporting among women: uncovering disparities in underserved communities",
+    "matched_year": 2024,
+    "matched_at": "2026-05-18T14:28:39+00:00"
+  },
+  "e6cc351dbbab6e60": {
+    "doi": "10.1080/1744666x.2023.2284213",
+    "confidence": 1.0,
+    "matched_title": "How does sleep influence asthma through immunity?",
+    "matched_year": 2023,
+    "matched_at": "2026-05-18T14:28:41+00:00"
+  },
+  "ca600ae32f076984": {
+    "doi": "10.56499/jppres21.1191_10.2.196",
+    "confidence": 1.0,
+    "matched_title": "Evaluating the impact of COVID-19 on mental health of the public in Jordan: A cross-sectional study",
+    "matched_year": 2022,
+    "matched_at": "2026-05-18T14:28:42+00:00"
+  },
+  "a1f7218aa8e119ab": {
+    "doi": "10.1080/17425255.2025.2551724",
+    "confidence": 1.0,
+    "matched_title": "Language models for drug–drug interactions: current applications, pitfalls, and future directions",
+    "matched_year": 2025,
+    "matched_at": "2026-05-18T14:28:43+00:00"
+  },
+  "ee1ca50237db2aa6": {
+    "doi": "10.1080/13696998.2024.2310466",
+    "confidence": 1.0,
+    "matched_title": "Challenges in health economics research: insights from real-world examples",
+    "matched_year": 2024,
+    "matched_at": "2026-05-18T14:28:45+00:00"
+  },
+  "1b2e7a74e78ba93c": {
+    "doi": "10.1080/14712598.2024.2307353",
+    "confidence": 1.0,
+    "matched_title": "Short and long-term economic implications of biosimilars",
+    "matched_year": 2024,
+    "matched_at": "2026-05-18T14:28:47+00:00"
+  },
+  "9a656b76a1865e24": {
+    "doi": "10.12688/f1000research.129873.2",
+    "confidence": 1.0,
+    "matched_title": "Assessment of Knowledge and attitude towards Stroke among the UAE population during the COVID-19 pandemic: A cross-sectional study",
+    "matched_year": 2023,
+    "matched_at": "2026-05-18T14:28:48+00:00"
+  },
+  "81e72638aad49c4b": {
+    "doi": "10.3390/pharmaceutics14081584",
+    "confidence": 1.0,
+    "matched_title": "Papain-Decorated Mucopenetrating SEDDS: A Tentative Approach to Combat Absorption Issues of Acyclovir via the Oral Route",
+    "matched_year": 2022,
+    "matched_at": "2026-05-18T14:28:50+00:00"
+  },
+  "509662ceb0a5697a": {
+    "doi": "10.35516/jjps.v15i2.320",
+    "confidence": 0.994,
+    "matched_title": "A Comparative Cross-Sectional Study- Knowledge, behavior and psychological change among Medical and Non-medical Students in Jordan during COVID-19 pandemic",
+    "matched_year": 2022,
+    "matched_at": "2026-05-18T14:28:51+00:00"
+  },
+  "43b0ae6560b57113": {
+    "doi": "10.56499/jppres21.1182_10.1.147",
+    "confidence": 1.0,
+    "matched_title": "Systematic review of the safety and efficacy of antazoline in the treatment of atrial fibrillation",
+    "matched_year": 2022,
+    "matched_at": "2026-05-18T14:28:52+00:00"
+  },
+  "b112900cc6b07146": {
+    "doi": "10.18549/pharmpract.2021.4.2563",
+    "confidence": 1.0,
+    "matched_title": "The Effectiveness of Pharmacist-Based Coaching in Improving Breast Cancer-Related Health Behaviors: A Randomized Controlled Trial",
+    "matched_year": 2022,
+    "matched_at": "2026-05-18T14:28:54+00:00"
+  },
+  "e38e3ddd48d91fb7": {
+    "doi": "10.1093/ijpp/riaa015",
+    "confidence": 1.0,
+    "matched_title": "Pharmacy students’ attitude towards providing pharmaceutical care to patients with anxiety and their knowledge of psychotropic medicines in Jordan",
+    "matched_year": 2020,
+    "matched_at": "2026-05-18T14:28:55+00:00"
+  },
+  "fe29844bb9d5dde1": {
+    "doi": "10.1007/s40267-020-00806-x",
+    "confidence": 1.0,
+    "matched_title": "Assessment of inappropriate prescribing of QT interval-prolonging drugs in end-stage renal disease patients in Jordan",
+    "matched_year": 2021,
+    "matched_at": "2026-05-18T14:28:58+00:00"
+  },
+  "919cacc094bc2fd8": {
+    "doi": "10.1080/14740338.2025.2467817",
+    "confidence": 1.0,
+    "matched_title": "Biosimilars and immunogenicity: a matter of concern?",
+    "matched_year": 2025,
+    "matched_at": "2026-05-18T14:29:00+00:00"
+  },
+  "f3e9d564b8b7dccb": {
+    "doi": "10.1080/03007995.2023.2295410",
+    "confidence": 1.0,
+    "matched_title": "Strategies for reducing chronic disease burden during pandemics",
+    "matched_year": 2023,
+    "matched_at": "2026-05-18T14:29:02+00:00"
+  },
+  "8a3b402759a29cc8": {
+    "doi": "10.1080/1744666x.2023.2277864",
+    "confidence": 1.0,
+    "matched_title": "Insights into the immunological links between dietary habits and asthma",
+    "matched_year": 2023,
+    "matched_at": "2026-05-18T14:29:03+00:00"
+  },
+  "345b580454e85f72": {
+    "doi": "10.1080/13696998.2023.2207423",
+    "confidence": 1.0,
+    "matched_title": "Advancing towards a worldwide healthcare system in the post-COVID-19 era: benefits and barriers to international collaboration in healthcare",
+    "matched_year": 2023,
+    "matched_at": "2026-05-18T14:29:05+00:00"
+  },
+  "d0d6953a8a1d85f9": {
+    "no_match_at": "2026-05-18T14:29:07+00:00"
+  },
+  "45cc5ef6fec934a2": {
+    "doi": "10.1080/17512433.2025.2519648",
+    "confidence": 1.0,
+    "matched_title": "Management of polypharmacy through deprescribing in older patients: a review of the role of AI tools",
+    "matched_year": 2025,
+    "matched_at": "2026-05-18T14:29:08+00:00"
+  },
+  "acd86e31336833cc": {
+    "doi": "10.1080/09603123.2024.2339534",
+    "confidence": 1.0,
+    "matched_title": "Knowledge, Attitudes, and Practices (KAP) of community pharmacists regarding antibiotic use and resistance: a cross-sectional study from the United Arab Emirates",
+    "matched_year": 2024,
+    "matched_at": "2026-05-18T14:29:09+00:00"
+  },
+  "88b2889f1c2d24ba": {
+    "doi": "10.1080/20477724.2023.2285185",
+    "confidence": 1.0,
+    "matched_title": "How climate change influences pathogen transmission",
+    "matched_year": 2023,
+    "matched_at": "2026-05-18T14:29:11+00:00"
+  },
+  "2d7cf7881047541c": {
+    "doi": "10.1080/14656566.2023.2291078",
+    "confidence": 1.0,
+    "matched_title": "What hinders individualized therapy plans for asthma patients?",
+    "matched_year": 2023,
+    "matched_at": "2026-05-18T14:29:12+00:00"
+  },
+  "4da58c75a0fabd14": {
+    "doi": "10.18549/pharmpract.2022.3.2698",
+    "confidence": 1.0,
+    "matched_title": "The patterns of herbal medicine use in the United Arab Emirates; A national study",
+    "matched_year": 2022,
+    "matched_at": "2026-05-18T14:29:13+00:00"
+  },
+  "bb72ee01cfb0afbe": {
+    "doi": "10.1080/03007995.2025.2472907",
+    "confidence": 1.0,
+    "matched_title": "Assessment of contraceptive use and side effects among women in five countries across the Middle East: a cross-sectional study",
+    "matched_year": 2025,
+    "matched_at": "2026-05-18T14:29:15+00:00"
+  },
+  "052dd381381ed73c": {
+    "doi": "10.1080/14712598.2024.2324123",
+    "confidence": 1.0,
+    "matched_title": "Examining the impact of biosimilar-to-biosimilar transition on effectiveness and safety",
+    "matched_year": 2024,
+    "matched_at": "2026-05-18T14:29:16+00:00"
+  },
+  "bed0d1b95d43644d": {
+    "doi": "10.1080/14787210.2024.2313064",
+    "confidence": 1.0,
+    "matched_title": "Biosimilars as antivirals: opportunities and challenges",
+    "matched_year": 2024,
+    "matched_at": "2026-05-18T14:29:18+00:00"
+  },
+  "11b03cb6db201b57": {
+    "doi": "10.1080/14712598.2024.2302583",
+    "confidence": 1.0,
+    "matched_title": "Decoding treatment efficacy: uncovering response and failure dynamics to biologics in asthma",
+    "matched_year": 2024,
+    "matched_at": "2026-05-18T14:29:20+00:00"
+  },
+  "0a339d7af72250eb": {
+    "doi": "10.1016/j.resinv.2023.03.006",
+    "confidence": 1.0,
+    "matched_title": "Assessment of changes in the epidemiology and prognosis of non-SARS-CoV-2 respiratory infections one year after recovery from COVID-19",
+    "matched_year": 2023,
+    "matched_at": "2026-05-18T14:29:21+00:00"
+  },
+  "8d3584d953075771": {
+    "doi": "10.1177/00185787211073506",
+    "confidence": 1.0,
+    "matched_title": "Assessment of A new Strategy to Prevent Prescribing Errors Involving COVID-19 Patients in Community Pharmacies",
+    "matched_year": 2022,
+    "matched_at": "2026-05-18T14:29:22+00:00"
+  },
+  "19d8a4ad0424b3f9": {
+    "doi": "10.57002/jms.v20i1.210",
+    "confidence": 1.0,
+    "matched_title": "Experience, Satisfaction, Attitude, and Challenges of Virtual Learning amongst Undergraduate Students of Management and Science University (MSU) during MCO.",
+    "matched_year": 2022,
+    "matched_at": "2026-05-18T14:29:24+00:00"
+  },
+  "95c52608fd7be9b2": {
+    "doi": "10.2147/copd.s517612",
+    "confidence": 1.0,
+    "matched_title": "Assessing Knowledge and Awareness of Asthma and Chronic Obstructive Pulmonary Disease Among the Iraqi Population",
+    "matched_year": 2025,
+    "matched_at": "2026-05-18T14:29:25+00:00"
+  },
+  "3a812ae86b221300": {
+    "doi": "10.1080/14787210.2024.2322429",
+    "confidence": 1.0,
+    "matched_title": "Is the world crippled by antimicrobial resistance, or simply lacking information?",
+    "matched_year": 2024,
+    "matched_at": "2026-05-18T14:29:26+00:00"
+  },
+  "78f41e8297b23291": {
+    "doi": "10.1093/ijpp/riae011",
+    "confidence": 0.996,
+    "matched_title": "Barriers to transforming community pharmacies into point-of-care testing sites in low- and middle-income countries",
+    "matched_year": 2024,
+    "matched_at": "2026-05-18T14:29:28+00:00"
+  },
+  "61f4d926263a30cb": {
+    "doi": "10.1080/14712598.2024.2359021",
+    "confidence": 1.0,
+    "matched_title": "Understanding patient variability to biologic treatments in inflammatory bowel disease",
+    "matched_year": 2024,
+    "matched_at": "2026-05-18T14:29:29+00:00"
+  },
+  "4794902c273d37b5": {
+    "doi": "10.1080/14740338.2024.2326488",
+    "confidence": 1.0,
+    "matched_title": "Disparities in drug safety practices in developing nations: focusing on underlying factors and implications for global health",
+    "matched_year": 2024,
+    "matched_at": "2026-05-18T14:29:30+00:00"
+  },
+  "cd93a8af19530752": {
+    "doi": "10.1186/s40246-024-00574-z",
+    "confidence": 1.0,
+    "matched_title": "Investigation of community pharmacists’ knowledge and attitudes of pharmacogenomics testing: implication for improved pharmacogenomic testing practice",
+    "matched_year": 2024,
+    "matched_at": "2026-05-18T14:29:32+00:00"
+  },
+  "54f9b90f6b976207": {
+    "doi": "10.1080/1744666x.2023.2263646",
+    "confidence": 1.0,
+    "matched_title": "Will SARS-CoV-2 impact the incidence and nature of other respiratory infections?",
+    "matched_year": 2023,
+    "matched_at": "2026-05-18T14:29:33+00:00"
+  },
+  "f61dc382e1827ab5": {
+    "no_match_at": "2026-05-18T14:29:35+00:00"
+  },
+  "1820a4b73727724a": {
+    "doi": "10.1016/j.sapharm.2021.04.017",
+    "confidence": 1.0,
+    "matched_title": "A novel educational approach for improving medication-related problems in community pharmacies",
+    "matched_year": 2022,
+    "matched_at": "2026-05-18T14:29:36+00:00"
+  },
+  "f0fdc290cb11dbc1": {
+    "doi": "10.1016/j.japh.2021.09.003",
+    "confidence": 1.0,
+    "matched_title": "Assessment of a new strategy for catalyzing deprescribing in community pharmacies",
+    "matched_year": 2022,
+    "matched_at": "2026-05-18T14:29:38+00:00"
+  },
+  "ed9fadc374222d80": {
+    "doi": "10.56499/jppres21.1098_9.6.780",
+    "confidence": 1.0,
+    "matched_title": "Benchmarking clinical pharmacy services in the United Arab Emirates with United States of America and Sweden",
+    "matched_year": 2021,
+    "matched_at": "2026-05-18T14:29:40+00:00"
+  },
+  "5b13d0cbea958b5d": {
+    "doi": "10.3390/tropicalmed10080215",
+    "confidence": 1.0,
+    "matched_title": "The Impact of a Community Pharmacy-Led Deworming-Related Counselling Service: An Interventional Study in a Low-to-Middle Income Country",
+    "matched_year": 2025,
+    "matched_at": "2026-05-18T14:29:41+00:00"
+  },
+  "8a4e6a3a437e6af6": {
+    "doi": "10.3390/healthcare13131588",
+    "confidence": 1.0,
+    "matched_title": "Knowledge, Attitudes, and Practices of Community Pharmacists Regarding Proton Pump Inhibitor (PPI) Use: A Cross-Sectional Study",
+    "matched_year": 2025,
+    "matched_at": "2026-05-18T14:29:43+00:00"
+  },
+  "11ff5775af909672": {
+    "doi": "10.3390/ph18030412",
+    "confidence": 0.952,
+    "matched_title": "Evaluating the Use of Inhaled Budesonide and Ipratropium Bromide Combination in Patients at High Risk of Acute Respiratory Distress Syndrome Development: A Randomized Controlled Trial",
+    "matched_year": 2025,
+    "matched_at": "2026-05-18T14:29:44+00:00"
+  },
+  "516e8990a52229c9": {
+    "doi": "10.1080/14737167.2024.2334893",
+    "confidence": 1.0,
+    "matched_title": "Assessing the economic impact of digital endpoints on medication adherence",
+    "matched_year": 2024,
+    "matched_at": "2026-05-18T14:29:46+00:00"
+  },
+  "635a3e0426e63379": {
+    "doi": "10.1080/14787210.2024.2351026",
+    "confidence": 1.0,
+    "matched_title": "Beyond resistance: assessing sulbactam-durlobactam’s role in today’s clinical landscape",
+    "matched_year": 2024,
+    "matched_at": "2026-05-18T14:29:48+00:00"
+  },
+  "7c9980dd6d96f9eb": {
+    "doi": "10.1080/14737167.2024.2320233",
+    "confidence": 1.0,
+    "matched_title": "The long-term clinical impact of digital endpoints and biomarkers in data collection",
+    "matched_year": 2024,
+    "matched_at": "2026-05-18T14:29:49+00:00"
+  },
+  "176ba50c0e48cc13": {
+    "doi": "10.1080/14740338.2024.2305368",
+    "confidence": 1.0,
+    "matched_title": "Why are outcome-based drug safety research studies scarce? Insights into operational challenges and potential solutions",
+    "matched_year": 2024,
+    "matched_at": "2026-05-18T14:29:51+00:00"
+  },
+  "b5c05d124158fa77": {
+    "doi": "10.12688/f1000research.129873.1",
+    "confidence": 0.888,
+    "matched_title": "Are we aware of stroke risk factors and warning signs amid COVID-19? Knowledge and attitude towards risk-factors, signs and symptoms of stroke among the UAE population during COVID-19 pandemic: A cross-sectional study",
+    "matched_year": 2023,
+    "matched_at": "2026-05-18T14:29:53+00:00"
+  },
+  "a0b7aef0c4c56831": {
+    "doi": "10.1007/s40267-021-00846-x",
+    "confidence": 1.0,
+    "matched_title": "The effect of educational interventions on medication dispensing errors: a randomised controlled trial in community pharmacies in Jordan",
+    "matched_year": 2021,
+    "matched_at": "2026-05-18T14:29:54+00:00"
+  },
+  "209a3f0bea8900d1": {
+    "doi": "10.1093/jphsr/rmaa029",
+    "confidence": 1.0,
+    "matched_title": "Applying medicines reconciliation indicators in two UK hospitals: a feasibility study",
+    "matched_year": 2021,
+    "matched_at": "2026-05-18T14:29:56+00:00"
+  },
+  "45783738b461e8e2": {
+    "doi": "10.1093/jphsr/rmab007",
+    "confidence": 1.0,
+    "matched_title": "Evaluating psychiatrists’ attitudes and expectations about pharmacists’ role in psychiatry in Jordan",
+    "matched_year": 2021,
+    "matched_at": "2026-05-18T14:29:57+00:00"
+  },
+  "375757592e75f7ee": {
+    "doi": "10.1093/jphsr/rmab005",
+    "confidence": 1.0,
+    "matched_title": "Development of a multivariable model to predict medication non-adherence risk factor for patients with acute coronary syndrome",
+    "matched_year": 2021,
+    "matched_at": "2026-05-18T14:29:59+00:00"
+  },
+  "e4478bf5684e4ee1": {
+    "doi": "10.1080/17476348.2025.2582244",
+    "confidence": 1.0,
+    "matched_title": "Spatially resolved airway niches: mapping epithelial–immune microenvironments in asthma",
+    "matched_year": 2025,
+    "matched_at": "2026-05-18T14:30:01+00:00"
+  },
+  "3fd1726ad5ecf6e3": {
+    "doi": "10.1080/17476348.2025.2581339",
+    "confidence": 1.0,
+    "matched_title": "Gut–lung axis and microbiome interplay in type 2 high asthma",
+    "matched_year": 2025,
+    "matched_at": "2026-05-18T14:30:04+00:00"
+  },
+  "6f78036b58c9a30b": {
+    "doi": "10.1080/20565623.2025.2589042",
+    "confidence": 1.0,
+    "matched_title": "Community pharmacists’ knowledge, attitudes, and concerns about POCT in the UAE: a cross-sectional study",
+    "matched_year": 2025,
+    "matched_at": "2026-05-18T14:30:06+00:00"
+  },
+  "fa9bf759f36b98c3": {
+    "doi": "10.1080/20565623.2025.2514932",
+    "confidence": 1.0,
+    "matched_title": "Utilization, perceived benefits and concerns regarding robotic technologies among community pharmacists",
+    "matched_year": 2025,
+    "matched_at": "2026-05-18T14:30:07+00:00"
+  },
+  "ad980cc08a3dcfce": {
+    "doi": "10.69709/cpc.2025.113833",
+    "confidence": 1.0,
+    "matched_title": "The Role of Pharmacists in Public Health and Disease Prevention: What Do We Know?",
+    "matched_year": 2025,
+    "matched_at": "2026-05-18T14:30:10+00:00"
+  },
+  "b3217f9b414c26c0": {
+    "doi": "10.1080/14740338.2025.2573368",
+    "confidence": 0.867,
+    "matched_title": "Before you start: the safety of SGLT2 inhibitors for anti-obesity treatment",
+    "matched_year": 2025,
+    "matched_at": "2026-05-18T14:30:12+00:00"
+  },
+  "a73c109691f931bd": {
+    "doi": "10.1080/1744666x.2024.2353743",
+    "confidence": 1.0,
+    "matched_title": "Navigating the crossroads: asthma, trained immunity, and infection susceptibility",
+    "matched_year": 2024,
+    "matched_at": "2026-05-18T14:30:13+00:00"
+  },
+  "5d5bf0d61655f980": {
+    "doi": "10.1080/17512433.2024.2322984",
+    "confidence": 1.0,
+    "matched_title": "Antiretroviral therapy response: exploring the potential influence of SARS-CoV-2",
+    "matched_year": 2024,
+    "matched_at": "2026-05-18T14:30:15+00:00"
+  },
+  "08cf6a2820a781ad": {
+    "doi": "10.1080/14737167.2023.2287487",
+    "confidence": 1.0,
+    "matched_title": "The economic impact of pharmacist intervention during pandemics",
+    "matched_year": 2023,
+    "matched_at": "2026-05-18T14:30:17+00:00"
+  },
+  "92b6a7fdbc7e36f7": {
+    "doi": "10.1080/14737167.2023.2263649",
+    "confidence": 1.0,
+    "matched_title": "Economic benefits of global Collaborative Health technology",
+    "matched_year": 2023,
+    "matched_at": "2026-05-18T14:30:18+00:00"
+  },
+  "4d8f7ecb4dbe283f": {
+    "doi": "10.1007/s40267-022-00961-3",
+    "confidence": 1.0,
+    "matched_title": "The role of professional socialisation in reducing drug-related problems during COVID-19: a new insight for future pandemics",
+    "matched_year": 2022,
+    "matched_at": "2026-05-18T14:30:20+00:00"
+  },
+  "a6c1b4cfc247d4b8": {
+    "doi": "10.56499/jppres21.1149_10.1.104",
+    "confidence": 1.0,
+    "matched_title": "Antibiotic prescribing errors generated by the use of an electronic prescribing system in the emergency department: A mixed-method study",
+    "matched_year": 2022,
+    "matched_at": "2026-05-18T14:30:22+00:00"
+  },
+  "d82f0e8d0a86b169": {
+    "no_match_at": "2026-05-18T14:30:25+00:00"
+  },
+  "8e3d39f53a65ed37": {
+    "doi": "10.2147/jmdh.s580863",
+    "confidence": 1.0,
+    "matched_title": "Community Pharmacists’ Role in Palliative Care: Evaluating Knowledge, Attitudes, Practices, and Perceived Barriers in the UAE",
+    "matched_year": 2026,
+    "matched_at": "2026-05-18T14:30:26+00:00"
+  },
+  "4960944305d697cb": {
+    "doi": "10.1080/09603123.2026.2657446",
+    "confidence": 1.0,
+    "matched_title": "Mpox knowledge, anxiety, and preventive behaviours in Jordan: a socio‑ecological perspective on vaccination and preparedness",
+    "matched_year": 2026,
+    "matched_at": "2026-05-18T14:30:27+00:00"
+  },
+  "e852e6341fc7fd06": {
+    "doi": "10.3389/fpubh.2026.1808218",
+    "confidence": 1.0,
+    "matched_title": "Public knowledge, attitudes, and barriers to cancer screening in the UAE: a comprehensive assessment to inform screening practices",
+    "matched_year": 2026,
+    "matched_at": "2026-05-18T14:30:29+00:00"
+  },
+  "b13d39f5308ac1e6": {
+    "doi": "10.1080/17512433.2026.2638352",
+    "confidence": 1.0,
+    "matched_title": "AI-enhanced therapeutic drug monitoring for vancomycin and β-lactam antibiotics in critical care: from population PK to bedside algorithms",
+    "matched_year": 2026,
+    "matched_at": "2026-05-18T14:30:31+00:00"
+  },
+  "6332041665661ee9": {
+    "doi": "10.1080/14740338.2025.2573368",
+    "confidence": 1.0,
+    "matched_title": "Before you start: the safety of SGLT2 inhibitors for anti-obesity treatment",
+    "matched_year": 2025,
+    "matched_at": "2026-05-18T14:30:33+00:00"
+  },
+  "1aa4171349218fca": {
+    "doi": "10.1371/journal.pone.0341726",
+    "confidence": 1.0,
+    "matched_title": "Job satisfaction and its demographic, occupational, and mental health determinants among community pharmacists",
+    "matched_year": 2026,
+    "matched_at": "2026-05-18T14:30:35+00:00"
+  },
+  "2c9b402a13198052": {
+    "doi": "10.1080/14712598.2026.2631532",
+    "confidence": 1.0,
+    "matched_title": "Biosimilar stewardship at the interface of disproportionality methods and AI integration: current evidence and potential strategies",
+    "matched_year": 2026,
+    "matched_at": "2026-05-18T14:30:46+00:00"
+  },
+  "99695f633d653276": {
+    "doi": "10.1093/ijpp/riaf056",
+    "confidence": 1.0,
+    "matched_title": "Prevalence and reporting of adverse drug events among women in Jordan",
+    "matched_year": 2025,
+    "matched_at": "2026-05-18T14:30:48+00:00"
+  },
+  "b9e5a52130ea1bac": {
+    "doi": "10.1080/20477724.2026.2621706",
+    "confidence": 1.0,
+    "matched_title": "Exploring knowledge, attitudes, and preventive practices related to dengue fever control: a cross-sectional study of 1,016 individuals",
+    "matched_year": 2026,
+    "matched_at": "2026-05-18T14:30:50+00:00"
+  },
+  "082471f63dcda787": {
+    "doi": "10.1080/17576180.2026.2638522",
+    "confidence": 1.0,
+    "matched_title": "Harmonizing immunogenicity for AAV and LNP/mRNA modalities: best-practice panels for binding, neutralizing, and cellular assays with pre-existing immunity controls",
+    "matched_year": 2026,
+    "matched_at": "2026-05-18T14:30:53+00:00"
+  },
+  "c79b1719dbf7fbf8": {
+    "doi": "10.1080/14712598.2026.2614429",
+    "confidence": 1.0,
+    "matched_title": "Biosimilars as antivirals: scientific and regulatory readiness for rapid, cost-effective deployment in infectious threats",
+    "matched_year": 2026,
+    "matched_at": "2026-05-18T14:30:55+00:00"
+  },
+  "b87411a0030fbf29": {
+    "doi": "10.1080/17476348.2025.2569844",
+    "confidence": 1.0,
+    "matched_title": "Advances in type 2-high asthma therapy: what remains missing?",
+    "matched_year": 2025,
+    "matched_at": "2026-05-18T14:30:57+00:00"
+  },
+  "abdb6833f454bf0b": {
+    "doi": "10.1155/ijta/8034289",
+    "confidence": 0.936,
+    "matched_title": "Integrating Large Language Models Into UAE Community Pharmacies: Pharmacists′ Perspectives on Benefits, Concerns, and Implementation Barriers",
+    "matched_year": 2026,
+    "matched_at": "2026-05-18T14:30:59+00:00"
+  },
+  "5ee9048318030a85": {
+    "doi": "10.1155/ijta/8034289",
+    "confidence": 1.0,
+    "matched_title": "Integrating Large Language Models Into UAE Community Pharmacies: Pharmacists′ Perspectives on Benefits, Concerns, and Implementation Barriers",
+    "matched_year": 2026,
+    "matched_at": "2026-05-18T14:31:01+00:00"
+  },
+  "7f0ad3c3eee33f6a": {
+    "doi": "10.1080/09581596.2025.2488119",
+    "confidence": 1.0,
+    "matched_title": "Hurdles in the personalized medicine implementation path: public’s literacy and misconceptions of whole genomic sequencing test",
+    "matched_year": 2025,
+    "matched_at": "2026-05-18T14:31:03+00:00"
+  },
+  "bd9463f7356113a9": {
+    "doi": "10.1080/17576180.2026.2614302",
+    "confidence": 1.0,
+    "matched_title": "Augmenting immunogenicity workflows with AI and real-world evidence: failure points, tools, and a closed-loop operational blueprint",
+    "matched_year": 2025,
+    "matched_at": "2026-05-18T14:31:05+00:00"
+  },
+  "44d1adebed90dc63": {
+    "doi": "10.1080/13548506.2025.2587972",
+    "confidence": 1.0,
+    "matched_title": "Occupational determinants of anxiety, depression, and stress among community pharmacists in Jordan: a cross-sectional study",
+    "matched_year": 2025,
+    "matched_at": "2026-05-18T14:31:07+00:00"
+  },
+  "6beffc91ffdb34d9": {
+    "doi": "10.1371/journal.pone.0312050",
+    "confidence": 1.0,
+    "matched_title": "Investigating the point prevalence, types, severity, causes and predictors of vaccines administration errors during COVID-19 pandemic in Jordan",
+    "matched_year": 2025,
+    "matched_at": "2026-05-18T14:31:10+00:00"
+  },
+  "42949fb366054ca1": {
+    "no_match_at": "2026-05-18T14:31:12+00:00"
+  },
+  "a664daf8384757b2": {
+    "doi": "10.1016/j.japh.2022.06.013",
+    "confidence": 1.0,
+    "matched_title": "The rewarding challenges of providing health care in a remote area",
+    "matched_year": 2022,
+    "matched_at": "2026-05-18T14:31:13+00:00"
+  },
+  "e10902780d380ddd": {
+    "doi": "10.1155/2022/5762299",
+    "confidence": 0.924,
+    "matched_title": "Caffeine Consumption among Various University Students in the UAE, Exploring the Frequencies, Different Sources and Reporting Adverse Effects and Withdrawal Symptoms",
+    "matched_year": 2022,
+    "matched_at": "2026-05-18T14:31:15+00:00"
+  },
+  "e6c83c43967deb4b": {
+    "no_match_at": "2026-05-18T14:31:18+00:00"
+  },
+  "0944cfb484096cfa": {
+    "no_match_at": "2026-05-18T14:31:19+00:00"
+  },
+  "19d22f8b1a27a37b": {
+    "doi": "10.1177/0018578720942231",
+    "confidence": 0.945,
+    "matched_title": "The Role of Clinical Pharmacy in Preventing Prescribing Errors in the Emergency Department of a Governmental Hospital in Jordan: A Pre-Post Study",
+    "matched_year": 2020,
+    "matched_at": "2026-05-18T14:31:21+00:00"
+  },
+  "8af9038b5763185e": {
+    "no_match_at": "2026-05-18T14:31:23+00:00"
+  },
+  "4903595eb109a1d0": {
+    "no_match_at": "2026-05-18T14:31:24+00:00"
+  },
+  "28ec981045b0c874": {
+    "no_match_at": "2026-05-18T14:31:26+00:00"
+  },
+  "615c60c685abb813": {
+    "no_match_at": "2026-05-18T14:31:29+00:00"
+  }
+}
