@@ -35,7 +35,7 @@ from pathlib import Path
 
 # Default target — overridden by env vars when fetching for other members.
 ORCID_ID_DEFAULT      = "0000-0002-8370-9562"  # Ahmad Z. Al Meslamani
-OPENALEX_AUTHOR_ID    = "A5056443210"          # Ahmad Z. Al Meslamani OpenAlex author ID
+OPENALEX_AUTHOR_ID    = "A5056443210"          # Ahmad's OpenAlex author ID
 DISPLAY_NAME_DEFAULT  = "Ahmad Z. Al Meslamani"
 MAILTO_DEFAULT        = "Ahmad.almeslamani@aau.ac.ae"
 

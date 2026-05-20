@@ -1,0 +1,85 @@
+{
+  "_about": "Plain-language summaries + topic tags per publication, keyed by DOI. Picked up by build_html.py and rendered into publications.html. Topics drive the filter buttons; recognised values for Ahmed: clinical, safety, digital, policy, review, telepharmacy. A pub can carry multiple space-separated topics. Ahmed has 113 OpenAlex works — only the most-cited / most clinically-relevant are annotated here; the rest get topic tags inferred at render time by build_html._infer_topics.",
+  "_updated": "2026-05-21",
+
+  "10.1089/tmj.2020.0283": {
+    "tldr": "One of the earliest evaluations of telepharmacy services rolled out during COVID-19. Documents what worked, what failed, and the regulatory questions that emerged from pharmacist-led virtual care in the UAE.",
+    "topics": "telepharmacy clinical digital"
+  },
+  "10.1080/13696998.2023.2249757": {
+    "tldr": "Maps the technical and regulatory obstacles that slow digital-health rollouts in low- and middle-income countries, with concrete suggestions for closing the policy-to-practice gap.",
+    "topics": "digital policy review"
+  },
+  "10.1080/07853890.2024.2362869": {
+    "tldr": "Review of machine learning applications in infectious-disease management. Catalogues where ML actually pays off in clinical decision making and where evaluation methodology still lags behind.",
+    "topics": "review digital"
+  },
+  "10.18549/pharmpract.2020.4.2111": {
+    "tldr": "Prospective study of dispensing errors in UAE community pharmacies. Reports incidence, contributing factors, and the structural changes that would meaningfully reduce error rates.",
+    "topics": "safety clinical"
+  },
+  "10.1080/14740338.2023.2224558": {
+    "tldr": "An honest look at why so many adverse drug events go unreported, what the under-reporting actually costs patients, and concrete policy moves that could close the gap.",
+    "topics": "safety review"
+  },
+  "10.1080/13696998.2023.2265245": {
+    "tldr": "Practical survey of AI applications already in use across pharmacy practice. Sorted by what works in community pharmacies versus hospital settings, with realistic adoption barriers called out.",
+    "topics": "digital review"
+  },
+  "10.1155/2022/5762299": {
+    "tldr": "Multi-country survey of caffeine consumption among university students in the UAE, including the awareness gap around the consumption-and-health-effect link.",
+    "topics": "clinical"
+  },
+  "10.1007/s11096-020-01126-w": {
+    "tldr": "Prospective audit of dispensing-error rates, types, and severity in UAE community pharmacies, with a clinical-significance assessment for each error category.",
+    "topics": "safety clinical"
+  },
+  "10.1016/j.japh.2022.05.020": {
+    "tldr": "Cross-sectional study of how telemedicine adoption shifted during the COVID-19 crisis. Identifies the patterns and determinants that predicted whether clinicians stuck with virtual care after the acute phase.",
+    "topics": "telepharmacy digital clinical"
+  },
+  "10.1080/13696998.2023.2249758": {
+    "tldr": "Companion piece to the AI-in-pharmacy overview. Focuses on the operational differences between hospital and community-pharmacy AI deployments, including data-governance constraints.",
+    "topics": "digital review"
+  },
+  "10.1080/13696998.2023.2285186": {
+    "tldr": "Looks past the deployment headline and asks the question hospital administrators actually need answered: what is the long-term economic impact of AI tooling on health-system budgets.",
+    "topics": "digital review"
+  },
+  "10.1111/ijcp.14563": {
+    "tldr": "Practical emergency-management framework for COVID-19 patient care in rural areas, written for clinical teams operating with limited infrastructure.",
+    "topics": "clinical"
+  },
+  "10.1007/s10900-020-00896-8": {
+    "tldr": "National survey of Jordanian community knowledge and beliefs about e-cigarettes. Reports the awareness gaps and the policy implications for tobacco-control programmes.",
+    "topics": "clinical policy"
+  },
+  "10.1016/j.japh.2021.02.003": {
+    "tldr": "Virtual pharmacist intervention study during COVID-19 lockdown. Evaluates whether telephone- and video-based counselling reduced over-the-counter medication misuse.",
+    "topics": "telepharmacy clinical"
+  },
+  "10.1093/ijpp/riaa003": {
+    "tldr": "Assessment of how the role of UAE community pharmacists evolved through the early COVID-19 period, focusing on patient-counselling and triage responsibilities that crossed traditional scope-of-practice lines.",
+    "topics": "clinical telepharmacy"
+  },
+  "10.1016/j.jvacx.2021.100135": {
+    "tldr": "Pharmacist-physician collaborative intervention designed to reduce vaccine hesitancy. Reports the effect size, the trust-building moves that worked, and the ones that did not.",
+    "topics": "clinical"
+  },
+  "10.1177/0018578720942231": {
+    "tldr": "Hospital pharmacy intervention study showing that pharmacist-led review at the prescribing stage prevented a meaningful share of prescribing errors in the emergency department.",
+    "topics": "safety clinical"
+  },
+  "10.1080/14787210.2023.2268835": {
+    "tldr": "Review article on antibiotic stewardship from the clinical-pharmacy perspective, mapping where pharmacist-led stewardship interventions have measurable effects on prescribing patterns.",
+    "topics": "review safety"
+  },
+  "10.18549/pharmpract.2022.3.2713": {
+    "tldr": "Pre-registered protocol for a systematic review of pharmacist-led prescribing interventions. Locks inclusion criteria in before any data extraction starts.",
+    "topics": "review clinical"
+  },
+  "10.18549/pharmpract.2022.2.2656": {
+    "tldr": "Cross-sectional survey of UAE community pharmacists on perceived benefits, barriers, and adoption concerns around electronic patient medication record systems beyond hospital settings.",
+    "topics": "digital clinical"
+  }
+}
