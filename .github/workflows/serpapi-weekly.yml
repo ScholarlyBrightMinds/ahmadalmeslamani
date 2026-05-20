@@ -3,7 +3,7 @@ name: Weekly Scholar + ORCID + OpenAlex Sync + SEO Build
 on:
   schedule:
     - cron: '0 5 * * 1'   # Every Monday at 05:00 UTC
-  workflow_dispatch:
+  workflow_dispatch:      # Manual trigger from GitHub UI
 
 permissions:
   contents: write
@@ -23,7 +23,7 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install requests Pillow
 
       - name: Fetch latest Scholar data via SerpApi
         env:
@@ -72,6 +72,16 @@ jobs:
           set -euo pipefail
           python build_coauthor_html.py
 
+      - name: Bake interactive research-map into research.html
+        run: |
+          set -euo pipefail
+          python build_research_map.py
+
+      - name: Generate per-paper OG share cards
+        run: |
+          set -euo pipefail
+          python og_card_generator.py
+
       - name: Update sitemap.xml lastmod for publications page
         run: |
           python - <<'PYEOF'
@@ -81,10 +91,11 @@ jobs:
           today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
           p = Path("sitemap.xml")
           if not p.exists():
+              print("sitemap.xml missing, skipping")
               raise SystemExit(0)
           t = p.read_text(encoding="utf-8")
           pat = re.compile(
-              r'(<url>\s*<loc>https://scholarlybrightminds.github.io/ahmadalmeslamani/publications\.html</loc>)(.*?)(</url>)',
+              r'(<url>\s*<loc>https://scholarlybrightminds\.github\.io/ahmadalmeslamani/publications\.html</loc>)(.*?)(</url>)',
               re.DOTALL,
           )
           def _bump(m):
@@ -98,9 +109,11 @@ jobs:
           if new != t:
               p.write_text(new, encoding="utf-8")
               print(f"sitemap.xml: bumped publications lastmod to {today}")
+          else:
+              print("sitemap.xml: no change")
           PYEOF
 
-      - name: Upload data artifacts
+      - name: Upload data artifacts (debugging, 7-day retention)
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -119,5 +132,7 @@ jobs:
             data/openalex/*.json
             publications.html
             about.html
+            research.html
             theme.config.js
             sitemap.xml
+            images/og/*.png

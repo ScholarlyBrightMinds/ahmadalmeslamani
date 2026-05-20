@@ -3,11 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Ahmad Z. Al Meslamani — researcher in drug safety · pharmacotherapy · health information technology. Pharmacist–scientist working at the intersection of clinical pharmacy, digital health, and AI in healthcare. Based in Abu Dhabi.">
+<meta name="description" content="Ahmad Z. Al Meslamani — pharmacist and clinical-research scientist working at the intersection of drug safety, clinical pharmacy practice, digital health, and AI in healthcare. Senior Laboratory Supervisor at Al Ain University and PhD candidate at UAEU. Based in Abu Dhabi.">
 <meta name="author" content="Ahmad Z. Al Meslamani">
-<meta name="keywords" content="Ahmad Z. Al Meslamani, Drug Safety · Pharmacotherapy · Health Information Technology, researcher, academic portfolio, Al Ain University · College of Pharmacy &amp; Health and Biomedical Research Centre">
-<meta name="theme-color" content="#0d1411" media="(prefers-color-scheme: dark)">
-<meta name="theme-color" content="#f7f3e8" media="(prefers-color-scheme: light)">
+<meta name="keywords" content="Ahmad Z. Al Meslamani, Drug Safety, Pharmacotherapy, Health Information Technology, clinical pharmacy, digital health, AI in healthcare, telepharmacy, deprescribing, Al Ain University, College of Pharmacy">
+<meta name="theme-color" content="#161310" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#fbf6ee" media="(prefers-color-scheme: light)">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
 <title>Ahmad Z. Al Meslamani — Drug Safety · Pharmacotherapy · Health Information Technology</title>
 
@@ -15,17 +15,17 @@
 
 <meta property="og:type" content="profile">
 <meta property="og:title" content="Ahmad Z. Al Meslamani — Drug Safety · Pharmacotherapy · Health Information Technology">
-<meta property="og:description" content="Pharmacist–scientist working at the intersection of clinical pharmacy, digital health, and AI in healthcare. Based in Abu Dhabi.">
+<meta property="og:description" content="Pharmacist and clinical-research scientist working at the intersection of clinical pharmacy, digital health, and AI in healthcare. Based in Abu Dhabi.">
 <meta property="og:image" content="https://scholarlybrightminds.github.io/ahmadalmeslamani/images/profile.png">
 <meta property="og:url" content="https://scholarlybrightminds.github.io/ahmadalmeslamani/">
-<meta property="og:site_name" content="Scholarly Bright Minds — Ahmad Z. Al Meslamani">
+<meta property="og:site_name" content="Scholarly Bright Minds · Ahmad Z. Al Meslamani">
 <meta property="og:locale" content="en_US">
 <meta property="profile:first_name" content="Ahmad">
 <meta property="profile:last_name" content="Al Meslamani">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Ahmad Z. Al Meslamani — Drug Safety · Pharmacotherapy · Health Information Technology">
-<meta name="twitter:description" content="Pharmacist–scientist working at the intersection of clinical pharmacy, digital health, and AI in healthcare. Based in Abu Dhabi.">
+<meta name="twitter:description" content="Pharmacist and clinical-research scientist working at the intersection of clinical pharmacy, digital health, and AI in healthcare. Based in Abu Dhabi.">
 <meta name="twitter:image" content="https://scholarlybrightminds.github.io/ahmadalmeslamani/images/profile.png">
 
 <link rel="sitemap" type="application/xml" href="/ahmadalmeslamani/sitemap.xml">
@@ -39,7 +39,9 @@
 
 <script type="application/ld+json">
 {
+  "@context": "https://schema.org",
   "@type": "Person",
+  "@id": "https://scholarlybrightminds.github.io/ahmadalmeslamani/#person",
   "name": "Ahmad Z. Al Meslamani",
   "givenName": "Ahmad",
   "familyName": "Al Meslamani",
@@ -48,14 +50,19 @@
   "sameAs": [
     "https://scholar.google.com/citations?user=usUecnoAAAAJ&hl=en",
     "https://orcid.org/0000-0002-8370-9562",
+    "https://openalex.org/A5056443210",
     "https://github.com/ScholarlyBrightMinds"
   ],
-  "@id": "https://scholarlybrightminds.github.io/ahmadalmeslamani/#person",
-  "jobTitle": "Drug Safety · Pharmacotherapy · Health Information Technology",
+  "jobTitle": "Senior Laboratory Supervisor",
   "worksFor": {
     "@type": "Organization",
-    "name": "Al Ain University · College of Pharmacy & Health and Biomedical Research Centre",
+    "name": "Al Ain University · College of Pharmacy and Health and Biomedical Research Centre",
     "url": "https://www.aau.ac.ae/"
+  },
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "United Arab Emirates University",
+    "url": "https://www.uaeu.ac.ae/"
   },
   "memberOf": {
     "@type": "Organization",
@@ -66,9 +73,19 @@
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Abu Dhabi",
-    "addressCountry": "UAE"
+    "addressCountry": "AE"
   },
-  "email": "Ahmad.almeslamani@aau.ac.ae"
+  "email": "Ahmad.almeslamani@aau.ac.ae",
+  "knowsAbout": [
+    "Clinical pharmacy",
+    "Drug safety",
+    "Pharmacovigilance",
+    "Telepharmacy",
+    "Deprescribing",
+    "Digital health",
+    "AI in healthcare",
+    "Health information technology"
+  ]
 }
 </script>
 
@@ -183,9 +200,19 @@
             <div class="chips" data-bind="chips"></div>
             <div class="social-links" data-bind="social"></div>
         </div>
+        <aside class="hero-aside" data-bind="phdCTA"></aside>
         <div class="hero-image">
             <img data-bind="photo" alt="Profile">
         </div>
+    </section>
+
+    <hr class="rule">
+
+    <!-- ═══ IMPACT STATS — "By the numbers" ═══ -->
+    <section class="impact-stats-section reveal">
+        <p class="sec-kicker">By the numbers</p>
+        <h2 class="sec-title">Research <em>at a glance</em>.</h2>
+        <div class="impact-stats" data-bind="impactStats"></div>
     </section>
 
     <hr class="rule">
