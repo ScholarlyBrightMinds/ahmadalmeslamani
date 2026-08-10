@@ -1,5 +1,5 @@
 // ═══════════════════════════════════════════════════════════════════
-//  theme.config.js — Ahmad Z. Al Meslamani
+//  theme.config.js, Ahmad Z. Al Meslamani
 //  Single source of truth for this researcher's site.
 // ═══════════════════════════════════════════════════════════════════
 
@@ -24,46 +24,50 @@ window.SITE_CONFIG = {
         }
     },
 
-    // ── Palette ── amber (warm gold; the fourth hub colour) ──────
+    // ── Palette ── amber (burnished amber + bronze on deep cool slate) ──
     palette: {
         name: "amber",
         dark: {
-            bg:          "#161310",
-            bgSoft:      "#201a14",
-            bgDeep:      "#0e0c0a",
-            card:        "#241d16",
-            cardSoft:    "#1c160f",
-            text:        "#f0e7d8",
-            textSoft:    "#cbbfa8",
-            muted:       "#8a7a60",
-            border:      "#3a2f23",
-            borderS:     "#2a2218",
-            accent:      "#e8a85c",     /* amber, warm luminous */
-            accentD:     "#f5be7d",
-            accentBg:    "rgba(232,168,92,0.10)",
-            accentGlow:  "rgba(232,168,92,0.22)",
-            amber:       "#f5be7d",
-            amberBg:     "rgba(245,190,125,0.10)",
-            amberGlow:   "rgba(245,190,125,0.18)"
+            bg:          "#10151b",
+            bgSoft:      "#151c24",
+            bgDeep:      "#0b0f14",
+            card:        "#161e27",
+            cardSoft:    "#131a22",
+            text:        "#f0efe9",
+            textSoft:    "#b5bcc4",
+            muted:       "#78828d",
+            border:      "#242e39",
+            borderS:     "#1b242e",
+            accent:      "#e6a45a",     /* burnished amber */
+            accentD:     "#f2c084",
+            accentBg:    "rgba(230,164,90,0.09)",
+            accentGlow:  "rgba(230,164,90,0.28)",
+            amber:       "#edcb8c",     /* champagne gold */
+            amberBg:     "rgba(237,203,140,0.08)",
+            amberGlow:   "rgba(237,203,140,0.22)",
+            gridLine:    "rgba(158,173,189,0.045)",
+            gridBold:    "rgba(158,173,189,0.085)"
         },
         light: {
-            bg:          "#fbf6ee",
-            bgSoft:      "#f5ebd9",
-            bgDeep:      "#ede0c4",
+            bg:          "#faf8f4",
+            bgSoft:      "#f2eee6",
+            bgDeep:      "#e9e3d7",
             card:        "#ffffff",
-            cardSoft:    "#fcf6e8",
-            text:        "#221b10",
-            textSoft:    "#4a3d27",
-            muted:       "#8a7a60",
-            border:      "#e2d3b3",
-            borderS:     "#ece0c5",
-            accent:      "#a86411",     /* amber, deep saturated */
-            accentD:     "#8a4f08",
-            accentBg:    "#f6e7c7",
-            accentGlow:  "rgba(168,100,17,0.16)",
-            amber:       "#7a4505",
-            amberBg:     "#f1deb3",
-            amberGlow:   "rgba(122,69,5,0.16)"
+            cardSoft:    "#f6f3ec",
+            text:        "#23201a",
+            textSoft:    "#575349",
+            muted:       "#8b8679",
+            border:      "#e2dccd",
+            borderS:     "#ece7da",
+            accent:      "#95601d",     /* deep bronze */
+            accentD:     "#71470f",
+            accentBg:    "rgba(149,96,29,0.09)",
+            accentGlow:  "rgba(149,96,29,0.24)",
+            amber:       "#7d5a17",
+            amberBg:     "rgba(125,90,23,0.10)",
+            amberGlow:   "rgba(125,90,23,0.22)",
+            gridLine:    "rgba(84,74,54,0.05)",
+            gridBold:    "rgba(84,74,54,0.10)"
         }
     },
 
@@ -94,7 +98,7 @@ window.SITE_CONFIG = {
     //   • Chip 1: "<N> Publications · <M> Citations"  ← Scholar totals
     //   • Chip 2: "h-index <N>"                       ← Scholar h-index
     chips: [
-        { label: "142 Publications · 1795 Citations" },
+        { label: "145 Publications · 1893 Citations" },
         { label: "h-index 24" },
         { label: "Drug Safety &amp; Pharmacotherapy", variant: "gold" },
         { label: "Senior Lab Supervisor · AAU" },
@@ -248,11 +252,11 @@ window.SITE_CONFIG = {
         ],
 
         awards: [
-            { icon: "🎓", title: "MSc in Pharmaceutical Sciences",        venue: "College of Pharmacy" },
-            { icon: "🔬", title: "Senior Laboratory Supervisor",          venue: "Al Ain University · College of Pharmacy" },
-            { icon: "🏛️", title: "Affiliated Researcher",                venue: "AAU Health and Biomedical Research Centre" },
-            { icon: "📚", title: "Cited 1,500+ times across his work",    venue: "Google Scholar · Drug Safety, Pharmacotherapy, Health IT" },
-            { icon: "📝", title: "Peer reviewer and editorial work",      venue: "Journals across clinical pharmacy and digital health" }
+            { icon: "molecule", title: "MSc in Pharmaceutical Sciences",        venue: "College of Pharmacy" },
+            { icon: "flask",    title: "Senior Laboratory Supervisor",          venue: "Al Ain University · College of Pharmacy" },
+            { icon: "network",  title: "Affiliated Researcher",                 venue: "AAU Health and Biomedical Research Centre" },
+            { icon: "chart",    title: "Cited 1,500+ times across his work",    venue: "Google Scholar · Drug Safety, Pharmacotherapy, Health IT" },
+            { icon: "document", title: "Peer reviewer and editorial work",      venue: "Journals across clinical pharmacy and digital health" }
         ]
     },
 
@@ -265,7 +269,7 @@ window.SITE_CONFIG = {
             title: "AI in Pharmacist-Led Deprescribing",
             desc:  "Examining how AI-assisted decision support can help community and hospital pharmacists identify candidates for deprescribing in older patients with polypharmacy, and the practical and policy barriers to deploying such tools.",
             tech:  ["AI", "Deprescribing", "Polypharmacy", "Clinical Pharmacy"],
-            status: "Active — review and commentary work in progress",
+            status: "Active · review and commentary in progress",
             statusKind: "active",
             needs: "Open to clinical pharmacists, geriatricians, and digital-health researchers who want to co-author on the deployment side."
         },
@@ -275,7 +279,7 @@ window.SITE_CONFIG = {
             title: "eHealth Policy Frameworks for LMICs",
             desc:  "Building on prior work analysing eHealth policy adoption in low- and middle-income countries, identifying what makes regional digital-health rollouts succeed or stall.",
             tech:  ["Digital Health", "Policy", "LMICs", "PRISMA"],
-            status: "Active — manuscript and collaboration",
+            status: "Active · manuscript and collaboration",
             statusKind: "active",
             needs: "Looking for health-policy researchers and country-specific collaborators."
         },
@@ -329,7 +333,7 @@ window.SITE_CONFIG = {
             date: "2025",
             year: 2025,
             kind: "talk",
-            title: "AI in Clinical Pharmacy — invited commentary",
+            title: "AI in Clinical Pharmacy: invited commentary",
             venue: "Clinical Pharmacy Connect · multi-institution roundtable",
             desc:  "Invited commentary on the role of AI and machine learning in pharmacy practice. Focused on what works today for hospital and community pharmacists, what does not, and how regulators in the Gulf region can keep up."
         },
@@ -345,7 +349,7 @@ window.SITE_CONFIG = {
             date: "2023",
             year: 2023,
             kind: "workshop",
-            title: "Telepharmacy and Virtual Care — workshop session",
+            title: "Telepharmacy and Virtual Care: workshop session",
             venue: "AAU Health and Biomedical Research Centre",
             desc:  "Workshop session for postgraduate pharmacy researchers on how to design and run telepharmacy studies in the post-pandemic era. Drew on the COVID-era publication stream and what the longer follow-up data showed."
         },
@@ -353,7 +357,7 @@ window.SITE_CONFIG = {
             date: "2022",
             year: 2022,
             kind: "talk",
-            title: "Pharmacist-Led Prescribing Interventions — systematic review protocol",
+            title: "Pharmacist-Led Prescribing Interventions: systematic review protocol",
             venue: "Postgraduate symposium · College of Pharmacy",
             desc:  "Presentation of the pre-registered protocol for the systematic review and meta-analysis of pharmacist-led prescribing interventions, locking inclusion criteria in before any data extraction."
         }
@@ -428,17 +432,17 @@ window.SITE_CONFIG = {
         directEmail: "Ahmad.almeslamani@aau.ac.ae",
         blocks: [
             {
-                icon: "🤝",
+                icon: "network",
                 title: "Research collaborators",
                 body:  "If you are running studies in clinical pharmacy, pharmacovigilance, telepharmacy, deprescribing, AI in pharmacy practice, or digital-health policy in LMICs, and would like a clinical-pharmacy research collaborator, I would be glad to hear from you. See the <a href=\"projects.html\">Ongoing Research</a> page for what is currently active."
             },
             {
-                icon: "📝",
+                icon: "document",
                 title: "Review and editorial work",
                 body:  "Happy to peer review manuscripts and serve on editorial boards in clinical pharmacy, drug safety, pharmacovigilance, digital-health, and AI-in-healthcare journals. Please include a brief description of the journal scope and what you are looking for."
             },
             {
-                icon: "✉️",
+                icon: "email",
                 title: "Journalists and podcasts",
                 body:  "Available to speak on AI in pharmacy practice, drug safety in the Gulf region, telepharmacy lessons from the pandemic, and digital-health policy in low- and middle-income countries. Reach out via the form or directly by email."
             }

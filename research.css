@@ -1,14 +1,6 @@
 /* ═══════════════════════════════════════════════════════════════════
-   research.css — Research statement / vision page
+   research.css · Research statement page + OpenAlex concept map
    ═══════════════════════════════════════════════════════════════════ */
-
-.sub-hero .sub-lede {
-    max-width: 640px;
-    margin-top: 1.2rem;
-    font-size: 1rem;
-    color: var(--text-soft);
-    line-height: 1.7;
-}
 
 /* ─── Intro paragraph block ────────────────────────────────────── */
 .research-intro {
@@ -16,36 +8,34 @@
     border: 1px solid var(--border);
     border-left: 3px solid var(--accent);
     border-radius: var(--radius);
-    padding: 1.6rem 1.9rem 1.7rem;
-    margin: 1rem 0 0;
-    position: relative;
+    padding: 1.5rem 1.9rem 1.6rem;
+    margin: 1.2rem 0 0;
 }
 .research-intro-body {
-    font-family: var(--display);
-    font-style: italic;
-    font-weight: 300;
-    font-size: 1.1rem;
+    font-family: var(--body);
+    font-weight: 500;
+    font-size: 1.02rem;
     color: var(--text-soft);
-    line-height: 1.65;
+    line-height: 1.7;
     margin: 0;
     max-width: 760px;
 }
 
-/* ─── Research statement section cards ─────────────────────────── */
+/* ─── Research statement sections ──────────────────────────────── */
 .research-sections {
     display: flex;
     flex-direction: column;
-    gap: 1.6rem;
+    gap: 1.4rem;
 }
 
 .research-block {
     background: var(--card);
     border: 1px solid var(--border);
     border-radius: var(--radius);
-    padding: 1.9rem 2.1rem 2rem;
+    padding: 1.8rem 2rem 1.9rem;
     position: relative;
     overflow: hidden;
-    transition: border-color .25s var(--ease), box-shadow .25s var(--ease);
+    transition: border-color .2s var(--ease), background-color .2s var(--ease);
 }
 .research-block::before {
     content: '';
@@ -55,54 +45,60 @@
     background: var(--accent);
     transform: scaleY(0);
     transform-origin: top;
-    transition: transform .35s var(--ease);
+    transition: transform .3s var(--ease);
 }
-.research-block:hover {
-    border-color: var(--accent);
-    box-shadow: var(--shadow-card);
-}
+.research-block:hover { border-color: var(--accent-glow); }
 .research-block:hover::before { transform: scaleY(1); }
 
-.research-block .sec-kicker {
-    margin-bottom: 0.4rem;
-}
+.research-block .sec-kicker { margin-bottom: 0.5rem; }
 .research-block-title {
     font-family: var(--display);
-    font-size: clamp(1.4rem, 2.4vw, 1.7rem);
-    font-weight: 400;
-    line-height: 1.25;
-    letter-spacing: -0.01em;
+    font-size: clamp(1.3rem, 2.3vw, 1.6rem);
+    font-weight: 600;
+    line-height: 1.22;
+    letter-spacing: -0.02em;
     color: var(--text);
     margin: 0 0 1rem;
 }
 .research-block-body {
     color: var(--text-soft);
-    font-size: 0.98rem;
+    font-size: 0.95rem;
     line-height: 1.78;
     max-width: 760px;
 }
 .research-block-body p { margin: 0 0 1rem; }
 .research-block-body p:last-child { margin-bottom: 0; }
 .research-block-body strong { color: var(--text); font-weight: 600; }
-.research-block-body em      { color: var(--text); font-style: italic; }
+.research-block-body em     { color: var(--text); font-style: normal; font-weight: 600; }
 .research-block-body a {
     color: var(--accent);
     text-decoration: none;
     border-bottom: 1px dotted var(--accent-glow);
-    transition: color .2s;
+    transition: color .15s;
 }
 .research-block-body a:hover { color: var(--accent-d); }
 
 /* ─── Final CTA ───────────────────────────────────────────────── */
 .research-final {
-    background: linear-gradient(180deg, var(--card) 0%, var(--card-soft) 100%);
-    border: 1px solid var(--accent-glow);
+    background:
+        radial-gradient(90% 130% at 0% 0%, var(--accent-bg), transparent 55%),
+        var(--card);
+    border: 1px solid var(--border);
     border-radius: var(--radius);
     padding: 2rem 2.2rem 2.1rem;
+    position: relative;
+    overflow: hidden;
+}
+.research-final::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 3px;
+    background: linear-gradient(180deg, var(--accent), var(--amber));
 }
 .research-final-body {
     color: var(--text-soft);
-    font-size: 0.96rem;
+    font-size: 0.94rem;
     line-height: 1.7;
     max-width: 620px;
     margin-bottom: 1.4rem;
@@ -111,30 +107,29 @@
     display: inline-flex;
     align-items: center;
     gap: 0.55rem;
-    padding: 0.78rem 1.4rem;
+    padding: 0.74rem 1.4rem;
     border-radius: 999px;
     background: var(--accent);
     color: var(--bg);
     border: 1px solid var(--accent);
     font-family: var(--body);
-    font-size: 0.9rem;
+    font-size: 0.88rem;
     font-weight: 600;
     text-decoration: none;
-    transition: all .25s var(--ease);
+    transition: background-color .18s var(--ease), border-color .18s var(--ease),
+                transform .18s var(--ease), box-shadow .18s var(--ease);
 }
-.research-final-cta svg {
-    width: 16px;
-    height: 16px;
-}
+.research-final-cta svg { width: 16px; height: 16px; }
 .research-final-cta:hover {
     background: var(--accent-d);
     border-color: var(--accent-d);
-    transform: translateY(-2px);
-    box-shadow: 0 14px 28px -10px var(--accent-glow);
+    transform: translateY(-1px);
+    box-shadow: 0 12px 24px -12px var(--accent-glow);
 }
+.research-final-cta:active { transform: scale(0.97); }
 .research-final-sub {
     margin: 1.3rem 0 0;
-    font-size: 0.84rem;
+    font-size: 0.82rem;
     color: var(--text-soft);
 }
 .research-final-sub a {
@@ -142,30 +137,19 @@
     text-decoration: none;
     border-bottom: 1px dotted var(--accent-glow);
 }
-.research-final-sub a:hover { color: var(--accent-d, var(--accent)); }
+.research-final-sub a:hover { color: var(--accent-d); }
 
-/* ─── Research-map (interactive concept graph) ──────────────────
-   Force-directed SVG of top-level concepts + topics from OpenAlex.
-   Server-baked static layout (works without JS for SEO + a11y);
-   research-map.js runs a spring simulation on top for the settling
-   motion + hover/drag. */
+/* ─── Research map (baked weekly by build_research_map.py) ──────
+   Static SVG layout for SEO + no-JS; research-map.js adds the spring
+   settle, hover highlight, and drag on top. */
 .research-map {
     background: var(--card);
     border: 1px solid var(--border);
     border-radius: var(--radius);
-    padding: 2rem 2.2rem 1.4rem;
-    margin: 1.5rem 0 0;
+    padding: 1.9rem 2.1rem 1.4rem;
+    margin: 1.6rem 0 0;
     position: relative;
     overflow: hidden;
-}
-.research-map::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background:
-        radial-gradient(60% 70% at 20% 20%, rgba(255,184,77,0.07), transparent 60%),
-        radial-gradient(50% 60% at 80% 80%, rgba(120,200,180,0.05), transparent 60%);
-    pointer-events: none;
 }
 .research-map .sec-kicker,
 .research-map .sec-title,
@@ -175,20 +159,23 @@
 }
 .research-map-lede {
     color: var(--text-soft);
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     line-height: 1.65;
     max-width: 720px;
-    margin: 0.7rem 0 1.2rem;
+    margin: 0.6rem 0 1.2rem;
 }
 .research-map-canvas {
     position: relative;
     z-index: 1;
     width: 100%;
     aspect-ratio: 1000 / 560;
-    border-radius: 14px;
-    background: linear-gradient(180deg,
-        rgba(0,0,0,0.18) 0%,
-        rgba(0,0,0,0.05) 100%);
+    border-radius: var(--radius-s);
+    border: 1px solid var(--border-s);
+    background:
+        linear-gradient(var(--grid-line) 1px, transparent 1px),
+        linear-gradient(90deg, var(--grid-line) 1px, transparent 1px),
+        var(--bg-deep);
+    background-size: 28px 28px, 28px 28px, auto;
     overflow: hidden;
 }
 .research-map-svg {
@@ -203,7 +190,7 @@
 /* Edges */
 .rm-edges { pointer-events: none; }
 .rm-edge {
-    stroke: rgba(255,184,77,0.30);
+    stroke: var(--accent-glow);
     stroke-linecap: round;
     transition: stroke .2s, stroke-width .2s, opacity .2s;
 }
@@ -212,22 +199,22 @@
     stroke-width: 1.8 !important;
     opacity: 1;
 }
-.rm-edge--dim { opacity: 0.18; }
+.rm-edge--dim { opacity: 0.15; }
 
 /* Nodes */
 .rm-node {
     cursor: pointer;
-    transition: opacity .25s var(--ease);
+    transition: opacity .22s var(--ease);
 }
-.rm-node--dim { opacity: 0.35; }
+.rm-node--dim { opacity: 0.3; }
 .rm-node--focus .rm-node-disc {
-    filter: drop-shadow(0 0 14px var(--accent-glow));
+    filter: drop-shadow(0 0 12px var(--accent-glow));
 }
 .rm-node--dragging { cursor: grabbing; }
 
 .rm-node-disc {
-    fill: var(--card-soft, #1a2622);
-    stroke: var(--border, rgba(255,184,77,0.22));
+    fill: var(--card);
+    stroke: var(--border);
     stroke-width: 1.4;
     transition: fill .2s, stroke .2s;
 }
@@ -235,7 +222,7 @@
     fill: var(--text);
     font-family: var(--body);
     font-size: 11.5px;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 0.1px;
     pointer-events: none;
 }
@@ -245,13 +232,13 @@
     stroke: var(--accent);
 }
 .rm-node--center .rm-node-label {
-    fill: var(--bg, #0d1411);
+    fill: var(--bg);
     font-size: 12.5px;
     font-weight: 700;
 }
 .rm-node--concept .rm-node-disc {
-    fill: rgba(255,184,77,0.14);
-    stroke: rgba(255,184,77,0.55);
+    fill: var(--accent-bg);
+    stroke: var(--accent-glow);
 }
 .rm-node--concept .rm-node-label {
     font-size: 12px;
@@ -259,8 +246,8 @@
     fill: var(--accent);
 }
 .rm-node--topic .rm-node-disc {
-    fill: rgba(120,200,180,0.10);
-    stroke: rgba(120,200,180,0.50);
+    fill: var(--amber-bg);
+    stroke: var(--amber-glow);
 }
 .rm-node--topic .rm-node-label {
     font-size: 10.5px;
@@ -271,19 +258,15 @@
 .rm-node:focus .rm-node-disc {
     stroke-width: 2.2;
 }
-.rm-node--focus.rm-node--concept .rm-node-disc {
-    fill: rgba(255,184,77,0.28);
-}
-.rm-node--focus.rm-node--topic .rm-node-disc {
-    fill: rgba(120,200,180,0.22);
-}
+.rm-node--focus.rm-node--concept .rm-node-disc { stroke: var(--accent); }
+.rm-node--focus.rm-node--topic   .rm-node-disc { stroke: var(--amber); }
 
 /* ─── Responsive ───────────────────────────────────────────────── */
 @media (max-width: 640px) {
-    .research-block { padding: 1.5rem 1.6rem; }
-    .research-intro { padding: 1.3rem 1.5rem; }
-    .research-final { padding: 1.5rem 1.6rem; }
-    .research-map   { padding: 1.4rem 1.4rem 1rem; }
+    .research-block { padding: 1.4rem 1.4rem 1.5rem; }
+    .research-intro { padding: 1.2rem 1.4rem; }
+    .research-final { padding: 1.5rem 1.4rem; }
+    .research-map   { padding: 1.3rem 1.2rem 1rem; }
     .rm-node-label  { font-size: 9.5px; }
     .rm-node--center .rm-node-label { font-size: 10.5px; }
     .rm-node--concept .rm-node-label { font-size: 10px; }
