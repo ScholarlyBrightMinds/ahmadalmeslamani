@@ -17,7 +17,7 @@
 
     const C = window.SITE_CONFIG;
     if (!C) {
-        console.error('SITE_CONFIG missing — theme.config.js must load before scripts.js');
+        console.error('SITE_CONFIG missing: theme.config.js must load before scripts.js');
         return;
     }
 
@@ -96,7 +96,7 @@
             <div class="footer-left">
                 <div>${C.identity.fullName} · ${C.identity.location} · © ${C.footer.copyrightYear}</div>
                 <div class="colophon">
-                    ${C.footer.tagline} Fraunces · Manrope · JetBrains Mono. ${C.footer.credits}
+                    ${C.footer.tagline} Space Grotesk · Manrope · JetBrains Mono. ${C.footer.credits}
                 </div>
             </div>
             <div class="footer-links">${links}</div>
@@ -169,7 +169,7 @@
                             <span>${cta.secondaryLabel}</span>
                             <span class="phd-cta-arrow" aria-hidden="true">→</span>
                         </a>
-                        <a class="phd-cta-btn phd-cta-btn--tertiary" href="${cta.tertiaryHref}" download>
+                        <a class="phd-cta-btn phd-cta-btn--tertiary" href="${cta.tertiaryHref}">
                             ${ICONS.cv}<span>${cta.tertiaryLabel}</span>
                         </a>
                     </div>
@@ -251,7 +251,7 @@
         if (awEl && C.about.awards) {
             awEl.innerHTML = C.about.awards.map(a => `
                 <li class="award-item">
-                    <div class="award-icon">${a.icon}</div>
+                    <div class="award-icon">${ICONS[a.icon] || a.icon}</div>
                     <div class="award-body">
                         <p class="a-title">${a.title}</p>
                         <p class="a-venue">${a.venue}</p>
@@ -288,7 +288,7 @@
             const body    = encodeURIComponent(`Hi ${C.identity.firstName || ''},\n\nI saw your "${p.title}" project on your website and would like to discuss a potential collaboration.\n\n`);
             const collabBtn = (showCollab && email)
                 ? `<a class="proj-collab" href="mailto:${email}?subject=${subject}&body=${body}">
-                     <span class="proj-collab-icon">✉</span>
+                     <span class="proj-collab-icon">${ICONS.email}</span>
                      Want to collaborate?
                    </a>`
                 : '';
@@ -341,9 +341,9 @@
         if (!C.blog || C.blog.length === 0) {
             el.innerHTML = `
                 <div class="blog-empty">
-                    <p class="blog-empty-icon">📝</p>
+                    <p class="blog-empty-icon">${ICONS.document}</p>
                     <h3 class="blog-empty-title">Nothing here yet.</h3>
-                    <p class="blog-empty-desc">Writing takes time. Check back soon — or follow my research on <a href="${C.social.find(s=>s.key==='scholar')?.url || '#'}" target="_blank" rel="noopener">Google Scholar</a>.</p>
+                    <p class="blog-empty-desc">Writing takes time. Check back soon, or follow my research on <a href="${C.social.find(s=>s.key==='scholar')?.url || '#'}" target="_blank" rel="noopener">Google Scholar</a>.</p>
                 </div>
             `;
             return;
@@ -493,7 +493,7 @@
         if (bEl && Array.isArray(C.contact.blocks)) {
             bEl.innerHTML = C.contact.blocks.map((b, i) => `
                 <article class="contact-block reveal reveal-d${(i % 3) + 1}">
-                    <div class="contact-block-icon" aria-hidden="true">${b.icon || '·'}</div>
+                    <div class="contact-block-icon" aria-hidden="true">${ICONS[b.icon] || b.icon || '·'}</div>
                     <h3 class="contact-block-title">${b.title}</h3>
                     <p class="contact-block-body">${b.body}</p>
                 </article>

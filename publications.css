@@ -1,209 +1,327 @@
 /* ═══════════════════════════════════════════════════════════════════
-   publications.css — page-specific styles
-   Supplements styles.css (which provides the shell).
+   publications.css · Publications page
+   Metrics monitor strip + compact data-forward list for 140+ papers.
+   Styles every class emitted by build_html.py, build_coauthor_html.py
+   and the serpapi.v1.js fallback renderer.
    ═══════════════════════════════════════════════════════════════════ */
 
-/* Sub-hero */
-.sub-hero .sub-lede {
-    max-width: 620px;
-    margin-top: 1.2rem;
-    font-size: 1rem;
-    color: var(--text-soft);
-    line-height: 1.7;
-}
-
-/* ─── METRICS DASHBOARD ─────────────────────────────────────────── */
+/* ─── METRICS DASHBOARD — one connected monitor strip ───────────── */
 .metrics-dash {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
-    margin: 2.2rem 0 3rem;
-}
-
-.metric-card {
-    background: var(--card);
+    gap: 1px;
+    background: var(--border-s);
     border: 1px solid var(--border);
     border-radius: var(--radius);
-    padding: 1.4rem 1.4rem 1.3rem;
-    position: relative;
     overflow: hidden;
-    transition: all .3s var(--ease);
+    margin: 2rem 0 2.8rem;
 }
-.metric-card:hover {
-    transform: translateY(-2px);
-    border-color: var(--accent);
-    box-shadow: var(--shadow-card);
+.metric-card {
+    background: var(--card);
+    padding: 1.4rem 1.4rem 1.25rem;
+    position: relative;
+    transition: background-color .2s var(--ease);
 }
-
+.metric-card:hover { background: var(--card-soft); }
 .metric-label {
     font-family: var(--mono);
     font-size: 0.62rem;
+    font-weight: 600;
     letter-spacing: 0.16em;
     text-transform: uppercase;
     color: var(--muted);
     margin-bottom: 0.55rem;
 }
-
 .metric-num {
     font-family: var(--display);
-    font-size: 2.6rem;
-    font-weight: 300;
+    font-size: 2.5rem;
+    font-weight: 600;
     line-height: 1;
-    color: var(--text);
-    letter-spacing: -0.02em;
+    color: var(--accent);
+    letter-spacing: -0.04em;
     margin-bottom: 0.5rem;
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: 'tnum';
 }
-.metric-num span { color: var(--text); }
-
+.metric-num span { color: inherit; }
 .metric-sub {
-    font-size: 0.74rem;
-    color: var(--text-soft);
+    font-size: 0.72rem;
+    color: var(--muted);
     line-height: 1.4;
 }
 
 /* Sparkline tile */
 .sparkline-card .spark-wrap {
-    height: 56px;
-    margin: 0.4rem 0 0.6rem;
+    height: 52px;
+    margin: 0.3rem 0 0.6rem;
 }
 .sparkline-card svg {
     width: 100%;
     height: 100%;
     overflow: visible;
 }
-.sparkline-card .metric-sub {
-    font-size: 0.7rem;
-    color: var(--muted);
-}
 
 /* ─── SECTION HEAD ──────────────────────────────────────────────── */
-.section-head {
-    margin-bottom: 2rem;
-}
-.section-head .sec-title { margin-bottom: 0.8rem; }
+.section-head { margin-bottom: 1.6rem; }
+.section-head .sec-title { margin-bottom: 0.7rem; }
 .section-note {
-    font-size: 0.85rem;
+    font-size: 0.82rem;
     color: var(--muted);
-    font-style: italic;
     max-width: 640px;
 }
 .update-note {
     font-family: var(--mono);
-    font-size: 0.74rem;
-    font-style: normal;
+    font-size: 0.7rem;
     color: var(--accent);
     margin-left: 0.2rem;
 }
 
-/* ─── PUBLICATION CARDS ─────────────────────────────────────────── */
-/* IDs/classes match the names that serpapi.v1.js creates */
+/* ═══════════════════════════════════════════════════════════════════
+   PUBLICATION LIST — compact rows, hairline separated, fast to render
+   (content-visibility keeps 140+ rows cheap on load and filter)
+   ═══════════════════════════════════════════════════════════════════ */
 .publication-list {
-    display: flex;
-    flex-direction: column;
-    gap: 1.1rem;
+    display: block;
+    border-bottom: 1px solid var(--border-s);
 }
 
 .pub-loading {
     color: var(--muted);
-    font-style: italic;
     padding: 2rem;
     text-align: center;
 }
 
+.pub-item {
+    position: relative;
+    padding: 1.05rem 1rem 1.1rem 1.1rem;
+    border-top: 1px solid var(--border-s);
+    content-visibility: auto;
+    contain-intrinsic-size: auto 132px;
+    transition: background-color .18s var(--ease);
+}
+.pub-item::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 10px; bottom: 10px;
+    width: 2px;
+    border-radius: 2px;
+    background: var(--accent);
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform .22s var(--ease);
+}
+.pub-item:hover { background: var(--card-soft); }
+.pub-item:hover::before { transform: scaleY(1); }
+
+.pub-title {
+    font-family: var(--display);
+    font-size: 1.02rem;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: -0.012em;
+    margin: 0 0 0.3rem;
+    color: var(--text);
+}
+.pub-title a {
+    color: inherit;
+    text-decoration: none;
+    transition: color .15s var(--ease);
+}
+.pub-title a:hover { color: var(--accent); }
+
+.pub-authors {
+    font-size: 0.8rem;
+    color: var(--muted);
+    line-height: 1.5;
+    margin: 0 0 0.25rem;
+}
+
+.pub-venue {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.01em;
+    color: var(--text-soft);
+    margin: 0 0 0.55rem;
+}
+
+/* ─── STATS ROW — flat mono chips, no card chrome ───────────────── */
+.pub-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.45rem 1.1rem;
+    min-height: 0;
+}
+.pub-meta:empty { display: none; }
+
+/* Hide the baked emoji/dingbat glyphs; the labels carry the meaning */
+.pub-stat-icon { display: none; }
+
+.pub-stat {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    line-height: 1;
+    color: var(--muted);
+    text-decoration: none;
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+}
+.pub-stat-num {
+    font-weight: 600;
+    color: var(--text-soft);
+}
+.pub-stat-label { color: var(--muted); }
+
+/* Citations — the number that matters reads amber */
+.pub-stat-cites .pub-stat-num { color: var(--accent); font-size: 0.76rem; }
+
+/* Year chip */
+.pub-stat-year .pub-stat-num { color: var(--text-soft); font-weight: 500; }
+
+/* Citation sparkline (OpenAlex counts_by_year) — inline mini vital */
+.pub-stat-spark { padding: 0; }
+.pub-spark {
+    display: block;
+    width: 64px;
+    height: 20px;
+    overflow: visible;
+}
+.pub-spark-line {
+    fill: none;
+    stroke: var(--accent);
+    stroke-width: 1.3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    opacity: 0.9;
+}
+.pub-spark-area {
+    fill: var(--accent);
+    fill-opacity: 0.12;
+    stroke: none;
+}
+.pub-spark-dot {
+    fill: var(--amber);
+    stroke: var(--bg);
+    stroke-width: 0.8;
+}
+
+/* DOI link — the one bordered affordance in the row */
+a.pub-stat-doi {
+    cursor: pointer;
+    color: var(--accent);
+    border: 1px solid var(--accent-glow);
+    border-radius: 999px;
+    padding: 0.28rem 0.7rem;
+    transition: background-color .15s var(--ease), color .15s var(--ease),
+                border-color .15s var(--ease), transform .15s var(--ease);
+}
+a.pub-stat-doi .pub-stat-label { color: inherit; font-weight: 600; letter-spacing: 0.04em; }
+a.pub-stat-doi::after {
+    content: '↗';
+    font-size: 0.7rem;
+    line-height: 1;
+    margin-left: 0.28rem;
+}
+a.pub-stat-doi:hover {
+    background: var(--accent);
+    color: var(--bg);
+    border-color: var(--accent);
+}
+a.pub-stat-doi:active { transform: scale(0.96); }
+
+/* Push DOI to the right edge of the row when there's space */
+.pub-meta > a.pub-stat-doi:last-child { margin-left: auto; }
+
+/* Dimensions Badge slot (external donut, ~32px) */
+.pub-dimensions {
+    flex: 0 0 auto;
+    min-width: 34px;
+    min-height: 34px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.pub-dimensions:empty { min-width: 0; min-height: 0; }
+.pub-dimensions > * { transition: transform .18s var(--ease); }
+.pub-dimensions:hover > * { transform: scale(1.06); }
+
+/* Altmetric slot — dormant until their API returns */
+.pub-altmetric {
+    flex: 0 0 auto;
+    min-width: 0;
+    min-height: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   LEGACY CARD RENDER — serpapi.v1.js fallback path only
+   ═══════════════════════════════════════════════════════════════════ */
 .publication-item {
     background: var(--card);
     border: 1px solid var(--border);
     border-radius: var(--radius);
-    padding: 1.6rem 1.8rem;
-    transition: transform .25s var(--ease), border-color .25s var(--ease), box-shadow .25s var(--ease);
-    position: relative;
-    overflow: hidden;
+    padding: 1.4rem 1.6rem;
+    margin-bottom: 0.9rem;
+    transition: border-color .2s var(--ease), background-color .2s var(--ease);
 }
-.publication-item::before {
-    content: '';
-    position: absolute;
-    left: 0; top: 0; bottom: 0;
-    width: 2px;
-    background: var(--accent);
-    transform: scaleY(0);
-    transform-origin: center;
-    transition: transform .3s var(--ease);
-}
-.publication-item:hover {
-    transform: translateY(-2px);
-    border-color: var(--accent);
-    box-shadow: var(--shadow-card);
-}
-.publication-item:hover::before { transform: scaleY(1); }
-
-.publication-info {
-    min-width: 0;
-}
-
+.publication-item:hover { border-color: var(--accent-glow); }
+.publication-info { min-width: 0; }
 .publication-meta {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 0.7rem;
-    margin-bottom: 0.7rem;
+    margin-bottom: 0.6rem;
 }
-
 .publication-label {
     font-family: var(--mono);
-    font-size: 0.62rem;
-    letter-spacing: 0.18em;
+    font-size: 0.6rem;
+    font-weight: 600;
+    letter-spacing: 0.16em;
     text-transform: uppercase;
     color: var(--accent);
     background: var(--accent-bg);
     border: 1px solid var(--accent-glow);
     padding: 0.22rem 0.55rem;
-    border-radius: 0.3rem;
+    border-radius: 999px;
 }
-
 .publication-date {
     font-family: var(--mono);
-    font-size: 0.72rem;
+    font-size: 0.7rem;
     color: var(--muted);
     letter-spacing: 0.06em;
 }
-
 .publication-category {
-    font-family: var(--display);
-    font-style: italic;
-    font-size: 0.86rem;
+    font-family: var(--mono);
+    font-size: 0.72rem;
     color: var(--text-soft);
     text-decoration: none;
-    transition: color .2s;
+    transition: color .15s;
 }
 .publication-category:hover { color: var(--accent); }
-
 .publication-title {
     font-family: var(--display);
-    font-size: 1.2rem;
-    font-weight: 400;
+    font-size: 1.1rem;
+    font-weight: 600;
     line-height: 1.35;
-    letter-spacing: -0.005em;
-    margin-bottom: 0.5rem;
+    letter-spacing: -0.012em;
+    margin-bottom: 0.4rem;
     color: var(--text);
 }
-.publication-title a {
-    color: inherit;
-    text-decoration: none;
-    transition: color .2s;
-}
+.publication-title a { color: inherit; text-decoration: none; transition: color .15s; }
 .publication-title a:hover { color: var(--accent); }
-
 .publication-description {
     color: var(--text-soft);
-    font-size: 0.88rem;
+    font-size: 0.85rem;
     line-height: 1.6;
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.7rem;
 }
-.publication-description strong {
-    color: var(--text);
-    font-weight: 600;
-}
-
+.publication-description strong { color: var(--text); font-weight: 600; }
 .pub-actions {
     display: flex;
     gap: 0.5rem;
@@ -214,277 +332,43 @@
     display: inline-flex;
     align-items: center;
     gap: 0.4rem;
-    padding: 0.4rem 0.8rem;
-    border-radius: 0.45rem;
+    padding: 0.36rem 0.8rem;
+    border-radius: 999px;
     border: 1px solid var(--border);
     background: var(--bg-soft);
-    font-size: 0.78rem;
-    font-family: var(--body);
+    font-size: 0.74rem;
+    font-family: var(--mono);
     color: var(--text-soft);
     text-decoration: none;
-    transition: all .2s var(--ease);
+    transition: border-color .15s var(--ease), color .15s var(--ease);
 }
-.pub-btn:hover {
-    border-color: var(--accent);
-    color: var(--accent);
-    transform: translateY(-1px);
-}
+.pub-btn:hover { border-color: var(--accent); color: var(--accent); }
 
-/* ─── LEGACY METRICS BAR (old markup, in case it's kept anywhere) ─ */
+/* Legacy metrics bar (dead markup guard) */
 .metrics { display: none; }
 
 /* ═══════════════════════════════════════════════════════════════════
-   PUB-ITEM CARDS (markup emitted by build_html.py)
-   These were previously unstyled. Card chrome mirrors .publication-item
-   so the page looks consistent if both markups ever coexist.
+   CO-AUTHOR NETWORK — baked weekly by build_coauthor_html.py
    ═══════════════════════════════════════════════════════════════════ */
-.pub-item {
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    padding: 1.4rem 1.6rem 1.2rem;
-    position: relative;
-    overflow: hidden;
-    transition: transform .25s var(--ease), border-color .25s var(--ease), box-shadow .25s var(--ease);
-}
-.pub-item::before {
-    content: '';
-    position: absolute;
-    left: 0; top: 0; bottom: 0;
-    width: 3px;
-    background: linear-gradient(180deg, var(--accent), var(--amber, var(--accent)));
-    transform: scaleY(0);
-    transform-origin: center;
-    transition: transform .3s var(--ease);
-}
-.pub-item:hover {
-    transform: translateY(-2px);
-    border-color: var(--accent);
-    box-shadow: var(--shadow-card);
-}
-.pub-item:hover::before { transform: scaleY(1); }
-
-.pub-title {
-    font-family: var(--display);
-    font-size: 1.15rem;
-    font-weight: 400;
-    line-height: 1.35;
-    letter-spacing: -0.005em;
-    margin: 0 0 .45rem;
-    color: var(--text);
-}
-.pub-title a {
-    color: inherit;
-    text-decoration: none;
-    transition: color .2s;
-}
-.pub-title a:hover { color: var(--accent); }
-
-.pub-authors {
-    font-size: 0.86rem;
-    color: var(--text-soft);
-    line-height: 1.55;
-    margin: 0 0 .35rem;
-}
-
-.pub-venue {
-    font-family: var(--display);
-    font-style: italic;
-    font-size: 0.88rem;
-    color: var(--muted);
-    margin: 0 0 .8rem;
-}
-
-/* ═══════════════════════════════════════════════════════════════════
-   STATS ROW — Altmetric donut + colored chips
-   The donut is the visual anchor (left); chips align right and wrap on
-   narrow screens. Each chip is color-coded for instant scannability.
-   ═══════════════════════════════════════════════════════════════════ */
-.pub-meta {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 0.7rem 0.9rem;
-    padding-top: 0.8rem;
-    border-top: 1px dashed var(--border);
-    margin-top: 0.2rem;
-}
-
-/* Altmetric slot — kept for the eventual return of Altmetric badges
-   (once their API key arrives and we have a server-side prefetch).
-   Currently unused because Altmetric paywalled their API on 2025-11-10. */
-.pub-altmetric {
-    flex: 0 0 auto;
-    min-width: 60px;
-    min-height: 60px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    transform: translateY(1px);
-}
-.pub-altmetric:empty { min-width: 0; min-height: 0; }
-.pub-altmetric > * { transition: transform .25s var(--ease); }
-.pub-altmetric:hover > * { transform: scale(1.08); }
-
-/* Dimensions Badge slot — by Digital Science, free, no API key.
-   data-style="small_circle" renders at ~32px. */
-.pub-dimensions {
-    flex: 0 0 auto;
-    min-width: 36px;
-    min-height: 36px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    transform: translateY(1px);
-}
-.pub-dimensions:empty { min-width: 0; min-height: 0; }
-.pub-dimensions > * { transition: transform .25s var(--ease); }
-.pub-dimensions:hover > * { transform: scale(1.08); }
-
-/* Generic chip */
-.pub-stat {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.4rem;
-    padding: 0.38rem 0.7rem;
-    border-radius: 999px;
-    background: var(--bg-soft, rgba(255,255,255,0.04));
-    border: 1px solid var(--border);
-    font-family: var(--body);
-    font-size: 0.78rem;
-    line-height: 1;
-    color: var(--text-soft);
-    text-decoration: none;
-    transition: all .2s var(--ease);
-    white-space: nowrap;
-}
-.pub-stat-icon {
-    font-size: 0.92rem;
-    line-height: 1;
-    display: inline-block;
-}
-.pub-stat-num {
-    font-family: var(--mono);
-    font-weight: 600;
-    color: var(--text);
-    font-size: 0.84rem;
-}
-.pub-stat-label {
-    color: var(--text-soft);
-}
-
-/* Citations — accent (warm) */
-.pub-stat-cites {
-    background: var(--accent-bg, rgba(255,184,77,0.08));
-    border-color: var(--accent-glow, rgba(255,184,77,0.22));
-}
-.pub-stat-cites .pub-stat-num { color: var(--accent); }
-.pub-stat-cites:hover {
-    transform: translateY(-1px);
-    border-color: var(--accent);
-}
-
-/* Year — muted, monospaced */
-.pub-stat-year {
-    background: transparent;
-}
-.pub-stat-year .pub-stat-num { color: var(--text); }
-
-/* Citation sparkline (OpenAlex counts_by_year). Sits next to the cite count
-   chip. Pure inline SVG, no JS. The polyline shows the trend across years,
-   the soft fill underneath gives visual weight, and the end-dot marks the
-   most recent year. */
-.pub-stat-spark {
-    padding: 0.18rem 0.45rem;
-    background: rgba(120, 200, 180, 0.06);
-    border-color: rgba(120, 200, 180, 0.22);
-}
-.pub-stat-spark:hover {
-    background: rgba(120, 200, 180, 0.12);
-    border-color: rgba(120, 200, 180, 0.4);
-}
-.pub-spark {
-    display: block;
-    width: 72px;
-    height: 22px;
-    overflow: visible;
-}
-.pub-spark-line {
-    fill: none;
-    stroke: var(--accent, #ffb84d);
-    stroke-width: 1.4;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-}
-.pub-spark-area {
-    fill: var(--accent, #ffb84d);
-    fill-opacity: 0.14;
-    stroke: none;
-}
-.pub-spark-dot {
-    fill: var(--accent, #ffb84d);
-    stroke: var(--bg, #0d1411);
-    stroke-width: 0.8;
-}
-@media (prefers-reduced-motion: no-preference) {
-    .pub-stat-spark .pub-spark-line {
-        stroke-dasharray: 200;
-        stroke-dashoffset: 200;
-        animation: pub-spark-draw 1.2s ease-out forwards;
-    }
-}
-@keyframes pub-spark-draw {
-    to { stroke-dashoffset: 0; }
-}
-
-/* DOI link — prominent, hover-glow */
-a.pub-stat-doi {
-    cursor: pointer;
-    color: var(--accent);
-    border-color: var(--accent-glow, rgba(255,184,77,0.3));
-}
-a.pub-stat-doi:hover {
-    background: var(--accent);
-    color: var(--bg, #0d1411);
-    border-color: var(--accent);
-    transform: translateY(-1px);
-}
-a.pub-stat-doi:hover .pub-stat-label { color: inherit; }
-
-/* Push DOI to the right edge of the row when there's space */
-.pub-meta > a.pub-stat-doi:last-child { margin-left: auto; }
-
-/* ─── RESPONSIVE ───────────────────────────────────────────────── */
-@media (max-width: 900px) {
-    .metrics-dash { grid-template-columns: repeat(2, 1fr); }
-}
-@media (max-width: 540px) {
-    .metrics-dash { grid-template-columns: 1fr; }
-    .publication-item { padding: 1.3rem 1.3rem; }
-    .publication-title { font-size: 1.08rem; }
-    .pub-item { padding: 1.2rem 1.2rem 1rem; }
-    .pub-title { font-size: 1.05rem; }
-    .pub-meta { gap: 0.55rem; }
-    .pub-meta > a.pub-stat-doi:last-child { margin-left: 0; }
-    .pub-altmetric { min-width: 56px; min-height: 56px; }
-}
-
-/* ── Co-author network — baked from data/openalex/openalex.json each Monday by build_coauthor_html.py ── */
 .coauth-panel {
-    margin-top: 3.5rem;
-    padding-top: 2rem;
-    border-top: 1px solid var(--border, rgba(255,255,255,0.08));
+    margin-top: 3.6rem;
+    padding-top: 2.4rem;
+    border-top: 1px solid var(--border-s);
 }
 .coauth-lede {
     color: var(--text-soft);
-    font-size: 0.96rem;
+    font-size: 0.92rem;
     max-width: 640px;
     margin-bottom: 1.4rem;
-    line-height: 1.6;
+    line-height: 1.65;
 }
 .coauth-wrap {
-    margin: 0 auto 1.4rem;
+    margin: 0 auto 1.6rem;
     max-width: 760px;
+    background: var(--card-soft);
+    border: 1px solid var(--border-s);
+    border-radius: var(--radius);
+    padding: 1rem;
 }
 .coauth-network {
     width: 100%;
@@ -493,96 +377,120 @@ a.pub-stat-doi:hover .pub-stat-label { color: inherit; }
     overflow: visible;
 }
 .coauth-edge {
-    stroke: var(--accent, #ffb84d);
-    transition: stroke-opacity .25s var(--ease, cubic-bezier(0.4,0,0.2,1));
+    stroke: var(--accent);
+    transition: stroke-opacity .2s var(--ease);
 }
 .coauth-centre {
-    fill: var(--accent, #ffb84d);
-    stroke: var(--bg, #0e0d0a);
+    fill: var(--accent);
+    stroke: var(--bg);
     stroke-width: 4;
-    transition: filter .25s var(--ease);
 }
 .coauth-centre-label {
-    font-family: var(--display, Georgia, serif);
-    font-size: 1.5rem;
-    font-weight: 600;
-    fill: var(--bg, #0e0d0a);
+    font-family: var(--display);
+    font-size: 1.4rem;
+    font-weight: 700;
+    fill: var(--bg);
     pointer-events: none;
 }
 .coauth-node {
-    fill: var(--card, rgba(255,255,255,0.06));
-    stroke: rgba(72, 145, 220, 0.65);
+    fill: var(--card);
+    stroke: var(--accent-glow);
     stroke-width: 1.5;
     cursor: pointer;
-    transition: fill .2s var(--ease), stroke-width .2s var(--ease), transform .25s var(--ease);
+    transition: fill .18s var(--ease), stroke .18s var(--ease), stroke-width .18s var(--ease);
 }
 .coauth-node:hover {
-    fill: rgba(72, 145, 220, 0.32);
-    stroke-width: 2.5;
+    fill: var(--accent-bg);
+    stroke: var(--accent);
+    stroke-width: 2.2;
 }
 .coauth-label {
-    font-family: var(--body, sans-serif);
-    font-size: 0.78rem;
+    font-family: var(--body);
+    font-size: 0.74rem;
+    font-weight: 500;
     fill: var(--text-soft);
     pointer-events: none;
 }
-.coauth-label .coauth-name { font-weight: 500; }
+.coauth-label .coauth-name { font-weight: 600; }
 .coauth-label .coauth-papers {
-    fill: var(--accent, #ffb84d);
+    fill: var(--accent);
     font-weight: 600;
-    font-family: var(--display, Georgia, serif);
+    font-family: var(--mono);
+    font-size: 0.68rem;
 }
 
-/* Co-author tabular list — sits below the SVG; also serves as the
-   accessible reading-order fallback for screen readers. */
+/* Co-author list — accessible fallback + scannable table */
 .coauth-list {
     list-style: none;
     padding: 0;
     margin: 0;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 0.45rem;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 1px;
+    background: var(--border-s);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
 }
 .coauth-row {
     display: grid;
     grid-template-columns: 1fr auto auto;
     align-items: center;
     gap: 0.7rem;
-    padding: 0.55rem 0.85rem;
-    background: var(--card, rgba(255,255,255,0.04));
-    border: 1px solid var(--border, rgba(255,255,255,0.08));
-    border-radius: 10px;
-    transition: border-color .2s var(--ease);
+    padding: 0.6rem 0.9rem;
+    background: var(--card);
+    transition: background-color .15s var(--ease);
 }
-.coauth-row:hover { border-color: rgba(72,145,220,0.45); }
+.coauth-row:hover { background: var(--card-soft); }
 .coauth-row-name {
-    color: var(--text, #fff);
-    font-weight: 500;
+    color: var(--text);
+    font-weight: 600;
     text-decoration: none;
-    font-size: 0.93rem;
+    font-size: 0.86rem;
+    transition: color .15s var(--ease);
 }
-.coauth-row-name:hover { color: rgba(72,145,220,1); }
+.coauth-row-name:hover { color: var(--accent); }
 .coauth-row-inst {
-    color: var(--text-soft);
-    font-size: 0.78rem;
-    font-style: italic;
+    color: var(--muted);
+    font-size: 0.72rem;
 }
 .coauth-row-count {
-    background: rgba(72,145,220,0.16);
-    color: rgba(106,169,224,1);
+    background: var(--accent-bg);
+    color: var(--accent);
+    border: 1px solid var(--accent-glow);
     border-radius: 999px;
-    padding: 0.18rem 0.6rem;
-    font-family: var(--display, Georgia, serif);
+    padding: 0.15rem 0.55rem;
+    font-family: var(--mono);
     font-weight: 600;
-    font-size: 0.85rem;
-    min-width: 28px;
+    font-size: 0.74rem;
+    min-width: 30px;
     text-align: center;
+    font-variant-numeric: tabular-nums;
 }
 
-@media (max-width: 600px) {
-    .coauth-label { font-size: 0.7rem; }
-    .coauth-centre-label { font-size: 1.2rem; }
+/* ─── RESPONSIVE ───────────────────────────────────────────────── */
+@media (max-width: 900px) {
+    .metrics-dash { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 540px) {
+    .metrics-dash { grid-template-columns: repeat(2, 1fr); }
+    .metric-card { padding: 1.1rem 1rem 1rem; }
+    .metric-num { font-size: 1.9rem; }
+    .publication-item { padding: 1.2rem 1.2rem; }
+    .publication-title { font-size: 1.02rem; }
+    .pub-item { padding: 0.95rem 0.6rem 1rem 0.85rem; }
+    .pub-title { font-size: 0.97rem; }
+    .pub-meta { gap: 0.4rem 0.8rem; }
+    .pub-meta > a.pub-stat-doi:last-child { margin-left: 0; }
+    .coauth-label { font-size: 0.64rem; }
+    .coauth-centre-label { font-size: 1.15rem; }
     .coauth-list { grid-template-columns: 1fr; }
     .coauth-row { grid-template-columns: 1fr auto; gap: 0.45rem; }
     .coauth-row-inst { grid-column: 1 / -1; }
+    .coauth-wrap { padding: 0.5rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .pub-item::before { transition: none; }
+    .pub-dimensions:hover > * { transform: none; }
 }
