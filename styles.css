@@ -441,7 +441,45 @@ main {
     max-width: 320px;
     margin: 0 auto;
     justify-self: end;
+    /* Electrophoresis frame: the border-image slice geometry turns the
+       left and right edges into banded gel lanes while top and bottom
+       stay solid rails (side slices sample the band zone of the
+       gradient, top and bottom slices sample the rails). --sig lifts
+       the middle band out of the noise: signal detection as ambient
+       motion, wired to the animation list further down. Static bands
+       are the base state for reduced motion. Site-wide freeze:
+       --sbm-anim: paused on :root. */
+    --gel-rail: color-mix(in srgb, var(--accent) 26%, transparent);
+    --gel-band: color-mix(in srgb, var(--accent) 34%, transparent);
+    --gel-sig: color-mix(in srgb, var(--accent) calc(34% + var(--sig, 0) * 56%), transparent);
+    border: 1px solid transparent;
+    border-image-source: linear-gradient(to bottom,
+        var(--gel-rail) 0 34%,
+        transparent 34% 36.8%,
+        var(--gel-band) 36.8% 39.2%,
+        transparent 39.2% 42.8%,
+        var(--gel-band) 42.8% 45.2%,
+        transparent 45.2% 48.8%,
+        var(--gel-sig) 48.8% 51.2%,
+        transparent 51.2% 54.8%,
+        var(--gel-band) 54.8% 57.2%,
+        transparent 57.2% 60.8%,
+        var(--gel-band) 60.8% 63.2%,
+        transparent 63.2% 66%,
+        var(--gel-rail) 66% 100%);
+    border-image-slice: 34%;
+    border-image-width: 2px;
+    border-image-outset: 16px;
+    border-image-repeat: round;
 }
+@property --sig {
+    syntax: "<number>";
+    initial-value: 0;
+    inherits: false;
+}
+/* Charge and release: hovering the portrait extends the brackets into a
+   full clinical frame in half a second; letting go decays them back
+   over two, like an elimination half-life. */
 .hero-image::before,
 .hero-image::after {
     content: '';
@@ -449,6 +487,7 @@ main {
     width: 26px; height: 26px;
     pointer-events: none;
     opacity: 0.9;
+    transition: width 2.2s var(--ease), height 2.2s var(--ease);
 }
 .hero-image::before {
     top: -11px; left: -11px;
@@ -459,6 +498,12 @@ main {
     bottom: -11px; right: -11px;
     border-bottom: 1.5px solid var(--accent);
     border-right: 1.5px solid var(--accent);
+}
+.hero-image:hover::before,
+.hero-image:hover::after {
+    width: calc(100% + 22px);
+    height: calc(100% + 22px);
+    transition-duration: 0.5s;
 }
 .hero-image img {
     display: block;
@@ -471,7 +516,7 @@ main {
     background: var(--card);
 }
 
-/* Hero chips — clean data tags */
+/* Hero chips: clean data tags */
 .chips {
     display: flex;
     flex-wrap: wrap;
@@ -703,7 +748,20 @@ footer {
     from { opacity: 0; transform: translateY(12px); }
     to   { opacity: 1; transform: translateY(0); }
 }
-.hero-image { opacity: 0; animation: fadeUp .6s var(--ease) .3s forwards; }
+/* one list: entrance + gel signal (a later lone animation declaration
+   would cancel the other) */
+.hero-image {
+    opacity: 0;
+    animation:
+        fadeUp .6s var(--ease) .3s forwards,
+        gelSignal 16s linear infinite;
+    animation-play-state: var(--sbm-anim, running);
+}
+@keyframes gelSignal {
+    0%, 20%   { --sig: 0; }
+    30%, 55%  { --sig: 1; }
+    68%, 100% { --sig: 0; }
+}
 .hero-text > * { opacity: 0; animation: fadeUp .55s var(--ease) forwards; }
 .hero-text > *:nth-child(1) { animation-delay: .08s; }
 .hero-text > *:nth-child(2) { animation-delay: .15s; }
@@ -1058,6 +1116,7 @@ footer {
     .brand-dot::after,
     .hero-status .live-dot::after { animation: none !important; display: none; }
     .hero-image, .hero-text > * { animation: none; opacity: 1; }
+    .hero-image::before, .hero-image::after { transition: none; }
     .hero-vital-path { stroke-dasharray: none; stroke-dashoffset: 0; animation: none; }
     .hero-vital-dot { opacity: 1; animation: none; }
     .reveal { opacity: 1; transform: none; transition: none; }
