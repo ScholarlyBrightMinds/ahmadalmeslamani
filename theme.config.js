@@ -98,8 +98,8 @@ window.SITE_CONFIG = {
     //   • Chip 1: "<N> Publications · <M> Citations"  ← Scholar totals
     //   • Chip 2: "h-index <N>"                       ← Scholar h-index
     chips: [
-        { label: "145 Publications · 1893 Citations" },
-        { label: "h-index 24" },
+        { label: "140 Publications · 1515 Citations" },
+        { label: "h-index 22" },
         { label: "Drug Safety &amp; Pharmacotherapy", variant: "gold" },
         { label: "Senior Lab Supervisor · AAU" },
         { label: "PhD Candidate · UAEU" }
@@ -109,7 +109,7 @@ window.SITE_CONFIG = {
     ledes: {
         about:        "Pharmacist and clinical-research scientist with broad clinical-pharmacy and digital-health interests. Currently pursuing a PhD at UAEU while continuing as Senior Laboratory Supervisor at Al Ain University.",
         projects:     "Active research across digital health, AI in clinical practice, and pharmacovigilance, alongside a body of published work in clinical pharmacy and drug safety.",
-        publications: "Peer-reviewed output across drug safety, pharmacotherapy, telepharmacy, and AI in healthcare. Auto-synced weekly from Google Scholar.",
+        publications: "Peer-reviewed output across drug safety, pharmacotherapy, telepharmacy, and AI in healthcare. Synced weekly from OpenAlex and Crossref.",
         blog:         "Notes on clinical pharmacy, digital health, and the path through a PhD.",
         talks:        "Invited lectures, conference presentations, and laboratory sessions across clinical pharmacy and digital-health practice.",
         contact:      "The fastest way to reach me. Below the form there is a short note for collaborators and another for review or advisory requests.",
@@ -179,7 +179,7 @@ window.SITE_CONFIG = {
                 ],
                 milestone: {
                     label: "PhD candidate at UAEU",
-                    sub: "Senior Laboratory Supervisor at AAU · 113 OpenAlex works · 1304 verified citations · h-index 22"
+                    sub: "Senior Laboratory Supervisor at AAU"
                 }
             },
             {
@@ -218,9 +218,9 @@ window.SITE_CONFIG = {
 
     // ── "By the numbers" impact tiles (home page) ────────────────
     impactStats: [
-        { num: "142",  label: "Publications",  sub: "peer-reviewed",                      numLiveSource: "total_documents" },
-        { num: "1795", label: "Citations",     sub: "across all work",                    numLiveSource: "total_citations" },
-        { num: "24",   label: "h-index",       sub: "sustained impact" },
+        { num: "140",  label: "Publications",  sub: "peer-reviewed",                      numLiveSource: "total_documents" },
+        { num: "1515", label: "Citations",     sub: "across all work",                    numLiveSource: "total_citations" },
+        { num: "22",   label: "h-index",       sub: "sustained impact", numLiveSource: "h_index" },
         { num: "PhD",  label: "Candidate",     sub: "United Arab Emirates University",    variant: "gold" },
         { num: "Sr.",  label: "Lab Supervisor", sub: "Al Ain University · College of Pharmacy" }
     ],
@@ -255,7 +255,7 @@ window.SITE_CONFIG = {
             { icon: "molecule", title: "MSc in Pharmaceutical Sciences",        venue: "College of Pharmacy" },
             { icon: "flask",    title: "Senior Laboratory Supervisor",          venue: "Al Ain University · College of Pharmacy" },
             { icon: "network",  title: "Affiliated Researcher",                 venue: "AAU Health and Biomedical Research Centre" },
-            { icon: "chart",    title: "Cited 1,500+ times across his work",    venue: "Google Scholar · Drug Safety, Pharmacotherapy, Health IT" },
+            { icon: "chart",    title: "Cited 1,500+ times across his work",    venue: "OpenAlex · Drug Safety, Pharmacotherapy, Health IT" },
             { icon: "document", title: "Peer reviewer and editorial work",      venue: "Journals across clinical pharmacy and digital health" }
         ]
     },
