@@ -1,22 +1,22 @@
 {
   "total_documents": 140,
-  "total_citations": 1515,
+  "total_citations": 1488,
   "h_index": 22,
   "author_id": "usUecnoAAAAJ",
   "source": "open_indexes",
-  "last_updated": "2026-09-12T20:56:57Z",
+  "last_updated": "2026-09-14T10:25:40Z",
   "sources": {
     "openalex": {
       "papers": 146,
-      "citations": 1476
+      "citations": 1479
     },
     "crossref": {
       "papers": 146,
       "citations": 1257
     },
     "semantic_scholar": {
-      "papers": 138,
-      "citations": 1270
+      "papers": 0,
+      "citations": 0
     },
     "carried_forward": 0,
     "excluded_non_papers": 6
