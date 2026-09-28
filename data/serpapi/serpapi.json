@@ -1,7 +1,7 @@
 [
   {
     "title": "Role of telepharmacy in pharmacist counselling to coronavirus disease 2019 patients and medication dispensing errors",
-    "authors": "O Mohamed Ibrahim, R Ibrahim, A Z. Al Meslamani, et al",
+    "authors": "O Mohamed Ibrahim, R M. Ibrahim, A Z. Al Meslamani, et al",
     "venue": "Journal of Telemedicine and Telecare, 2020",
     "year": "2020",
     "cited_by": 75,
@@ -10,7 +10,7 @@
   },
   {
     "title": "Evaluation of Telepharmacy Services in Light of COVID-19",
-    "authors": "O Mohamed Ibrahim, R Ibrahim, D H. Abdel‐Qader, et al",
+    "authors": "O Mohamed Ibrahim, R M. Ibrahim, D H. Abdel‐Qader, et al",
     "venue": "Telemedicine Journal and e-Health, 2020",
     "year": "2020",
     "cited_by": 68,
@@ -31,7 +31,7 @@
     "authors": "A Z. Al Meslamani",
     "venue": "Journal of Medical Economics, 2023",
     "year": "2023",
-    "cited_by": 58,
+    "cited_by": 59,
     "link": "https://doi.org/10.1080/13696998.2023.2249757",
     "author_id": "usUecnoAAAAJ"
   },
@@ -40,13 +40,13 @@
     "authors": "A Z. Al Meslamani, R Aldulaymi, H El Sharu, et al",
     "venue": "Journal of the American Pharmacists Association, 2022",
     "year": "2022",
-    "cited_by": 49,
+    "cited_by": 50,
     "link": "https://doi.org/10.1016/j.japh.2022.05.020",
     "author_id": "usUecnoAAAAJ"
   },
   {
     "title": "Incidence, nature, severity, and causes of dispensing errors in community pharmacies in Jordan",
-    "authors": "D H. Abdel‐Qader, A Z. Al Meslamani, P Lewis, et al",
+    "authors": "D H. Abdel‐Qader, A Z. Al Meslamani, P J Lewis, et al",
     "venue": "International Journal of Clinical Pharmacy, 2020",
     "year": "2020",
     "cited_by": 42,
@@ -64,7 +64,7 @@
   },
   {
     "title": "Dispensing errors in community pharmacies in the United Arab Emirates: investigating incidence, types, severity, and causes",
-    "authors": "O Mohamed Ibrahim, R Ibrahim, A Z. Al Meslamani, et al",
+    "authors": "O Mohamed Ibrahim, R M. Ibrahim, A Z. Al Meslamani, et al",
     "venue": "Pharmacy Practice, 2020",
     "year": "2020",
     "cited_by": 40,
@@ -91,7 +91,7 @@
   },
   {
     "title": "Caffeine Consumption among Various University Students in the UAE, Exploring the Frequencies, Different Sources and Reporting Adverse Effects and Withdrawal Symptoms",
-    "authors": "Z Kharaba, N Sammani, S Ashour, et al",
+    "authors": "Z Jaber Kharaba, N Sammani, S Ashour, et al",
     "venue": "Journal of Nutrition and Metabolism, 2022",
     "year": "2022",
     "cited_by": 36,
@@ -100,7 +100,7 @@
   },
   {
     "title": "Pharmacists-physicians collaborative intervention to reduce vaccine hesitancy and resistance: A randomized controlled trial",
-    "authors": "D H. Abdel‐Qader, W Hayajneh, A Albassam, et al",
+    "authors": "D H. Abdel‐Qader, W Ahmad Hayajneh, A Albassam, et al",
     "venue": "Vaccine X, 2021",
     "year": "2021",
     "cited_by": 33,
@@ -109,7 +109,7 @@
   },
   {
     "title": "Virtual pharmacist interventions on abuse of over-the-counter medications during COVID-19 versus traditional pharmacist interventions",
-    "authors": "N Al Mazrouei, R Ibrahim, A Z. Al Meslamani, et al",
+    "authors": "N Al Mazrouei, R M. Ibrahim, A Z. Al Meslamani, et al",
     "venue": "Journal of the American Pharmacists Association, 2021",
     "year": "2021",
     "cited_by": 32,
@@ -153,21 +153,21 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
-    "title": "The evolving role of community pharmacists during COVID-19 in the UAE; assessing preparedness and knowledge",
-    "authors": "N Al Mazrouei, R Ibrahim, A Z. Al Meslamani, et al",
-    "venue": "International Journal of Pharmacy Practice, 2020",
-    "year": "2020",
-    "cited_by": 28,
-    "link": "https://doi.org/10.1093/ijpp/riaa003",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
     "title": "Knowledge, Attitudes, and Practices Concerning Breast Cancer and Self Examination Among Females in UAE",
-    "authors": "Z Kharaba, M Buabeid, A Ramadan, et al",
+    "authors": "Z Jaber Kharaba, M Ali Buabeid, A Ramadan, et al",
     "venue": "Journal of Community Health, 2021",
     "year": "2021",
     "cited_by": 27,
     "link": "https://doi.org/10.1007/s10900-021-00969-2",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
+    "title": "The evolving role of community pharmacists during COVID-19 in the UAE; assessing preparedness and knowledge",
+    "authors": "N Al Mazrouei, R M. Ibrahim, A Z. Al Meslamani, et al",
+    "venue": "International Journal of Pharmacy Practice, 2020",
+    "year": "2020",
+    "cited_by": 27,
+    "link": "https://doi.org/10.1093/ijpp/riaa003",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -211,7 +211,7 @@
     "authors": "A Z. Al Meslamani",
     "venue": "Expert Opinion on Drug Safety, 2023",
     "year": "2023",
-    "cited_by": 21,
+    "cited_by": 22,
     "link": "https://doi.org/10.1080/14740338.2023.2181954",
     "author_id": "usUecnoAAAAJ"
   },
@@ -235,7 +235,7 @@
   },
   {
     "title": "What has changed in the pharmaceutical care after COVID-19: Pharmacists’ perspective",
-    "authors": "Z Kharaba, S A. Moutraji, R A Al Khawaldeh, et al",
+    "authors": "Z Jaber Kharaba, S A. Moutraji, R A Al Khawaldeh, et al",
     "venue": "Pharmacy Practice, 2022",
     "year": "2022",
     "cited_by": 20,
@@ -262,7 +262,7 @@
   },
   {
     "title": "IgA nephropathy in a pediatric patient after receiving the first dose of Pfizer-BioNTech COVID-19 vaccine",
-    "authors": "D H. Abdel‐Qader, I Hazza Alkhatatbeh, W Hayajneh, et al",
+    "authors": "D H. Abdel‐Qader, I Hazza Alkhatatbeh, W Ahmad Hayajneh, et al",
     "venue": "Vaccine, 2022",
     "year": "2022",
     "cited_by": 18,
@@ -307,7 +307,7 @@
   },
   {
     "title": "The impact of telepharmacy on hypertension management in the United Arab Emirates",
-    "authors": "O Mohamed Ibrahim, A Z. Al Meslamani, R Ibrahim, et al",
+    "authors": "O Mohamed Ibrahim, A Z. Al Meslamani, R M. Ibrahim, et al",
     "venue": "Pharmacy Practice, 2022",
     "year": "2022",
     "cited_by": 17,
@@ -370,11 +370,20 @@
   },
   {
     "title": "Assessment of Knowledge and attitude towards Stroke among the UAE population during the COVID-19 pandemic: A cross-sectional study",
-    "authors": "A Ramadan, Z Kharaba, R Ghemrawi, et al",
+    "authors": "A Ramadan, Z Jaber Kharaba, R Ghemrawi, et al",
     "venue": "F1000Research, 2023",
     "year": "2023",
-    "cited_by": 11,
+    "cited_by": 12,
     "link": "https://doi.org/10.12688/f1000research.129873.2",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
+    "title": "Management of polypharmacy through deprescribing in older patients: a review of the role of AI tools",
+    "authors": "A Z. Al Meslamani",
+    "venue": "Expert Review of Clinical Pharmacology, 2025",
+    "year": "2025",
+    "cited_by": 11,
+    "link": "https://doi.org/10.1080/17512433.2025.2519648",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -411,15 +420,6 @@
     "year": "2025",
     "cited_by": 10,
     "link": "https://doi.org/10.1080/17425255.2025.2551724",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
-    "title": "Management of polypharmacy through deprescribing in older patients: a review of the role of AI tools",
-    "authors": "A Z. Al Meslamani",
-    "venue": "Expert Review of Clinical Pharmacology, 2025",
-    "year": "2025",
-    "cited_by": 10,
-    "link": "https://doi.org/10.1080/17512433.2025.2519648",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -577,7 +577,7 @@
   },
   {
     "title": "A novel educational approach for improving medication-related problems in community pharmacies",
-    "authors": "N Al Mazrouei, R Ibrahim, A Z. Al Meslamani, et al",
+    "authors": "N Al Mazrouei, R M. Ibrahim, A Z. Al Meslamani, et al",
     "venue": "Research in Social and Administrative Pharmacy, 2021",
     "year": "2021",
     "cited_by": 5,
@@ -604,7 +604,7 @@
   },
   {
     "title": "Knowledge, Attitudes, and Practices (KAP) of community pharmacists regarding antibiotic use and resistance: a cross-sectional study from the United Arab Emirates",
-    "authors": "T Qudah, M Ahmad Alameri, A Alqudah, et al",
+    "authors": "T Qudah, M Ahmad Alameri, A M. Alqudah, et al",
     "venue": "International Journal of Environmental Health Research, 2024",
     "year": "2024",
     "cited_by": 5,
@@ -667,7 +667,7 @@
   },
   {
     "title": "Benchmarking clinical pharmacy services in the United Arab Emirates with United States of America and Sweden",
-    "authors": "R Haider Al Zahawi, M Rafi Baig, T Dixon, et al",
+    "authors": "R Haider Al Zahawi, M Rafi Baig, D Thomas, et al",
     "venue": "Journal of Pharmacy & Pharmacognosy Research, 2021",
     "year": "2021",
     "cited_by": 4,
@@ -747,17 +747,8 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
-    "title": "Pharmacokinetic interaction of rosuvastatin with artichoke (Cynara scolymus L.) leaf extract in rats",
-    "authors": "A M. Al Masalmeh, E Mallah, K Mansoor, et al",
-    "venue": "Journal of Applied Pharmaceutical Science, 2023",
-    "year": "2023",
-    "cited_by": 3,
-    "link": "https://doi.org/10.7324/japs.2023.116608",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
     "title": "Utilization, perceived benefits and concerns regarding robotic technologies among community pharmacists",
-    "authors": "A S. Jarab, A Z. Al Meslamani, W Al‐Qerem, et al",
+    "authors": "A S. Jarab, A Z. Al Meslamani, W A. Al-Qerem, et al",
     "venue": "Future Science OA, 2025",
     "year": "2025",
     "cited_by": 3,
@@ -775,7 +766,7 @@
   },
   {
     "title": "Assessing Knowledge and Awareness of Asthma and Chronic Obstructive Pulmonary Disease Among the Iraqi Population",
-    "authors": "A Hussein Alsajri, W Al‐Qerem, A S. Jarab, et al",
+    "authors": "A Hussein Alsajri, W A. Al-Qerem, A S. Jarab, et al",
     "venue": "International Journal of COPD, 2025",
     "year": "2025",
     "cited_by": 2,
@@ -793,7 +784,7 @@
   },
   {
     "title": "Development of a multivariable model to predict medication non-adherence risk factor for patients with acute coronary syndrome",
-    "authors": "A Sadeq, A Ahmed Elnour, A Hamrouni, et al",
+    "authors": "A Shaban Sadeq, A Ahmed Elnour, A Hamrouni, et al",
     "venue": "Journal of Pharmaceutical Health Services Research, 2021",
     "year": "2021",
     "cited_by": 2,
@@ -816,6 +807,24 @@
     "year": "2022",
     "cited_by": 2,
     "link": "https://doi.org/10.57002/jms.v20i1.210",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
+    "title": "Exploring knowledge, attitudes, and preventive practices related to dengue fever control: a cross-sectional study of 1,016 individuals",
+    "authors": "A S. Jarab, W A. Al-Qerem, A Z. Al Meslamani, et al",
+    "venue": "Pathogens and Global Health, 2026",
+    "year": "2026",
+    "cited_by": 2,
+    "link": "https://doi.org/10.1080/20477724.2026.2621706",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
+    "title": "Pharmacokinetic interaction of rosuvastatin with artichoke (Cynara scolymus L.) leaf extract in rats",
+    "authors": "A M. Al Masalmeh, E Mallah, K Mansoor, et al",
+    "venue": "Journal of Applied Pharmaceutical Science, 2023",
+    "year": "2023",
+    "cited_by": 2,
+    "link": "https://doi.org/10.7324/japs.2023.116608",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -883,7 +892,7 @@
   },
   {
     "title": "Applying medicines reconciliation indicators in two UK hospitals: a feasibility study",
-    "authors": "M Aljamal, D H. Abdel‐Qader, A Z. Al Meslamani",
+    "authors": "M Sulaiman Aljamal, D H. Abdel‐Qader, A Z. Al Meslamani",
     "venue": "Journal of Pharmaceutical Health Services Research, 2021",
     "year": "2021",
     "cited_by": 1,
@@ -892,7 +901,7 @@
   },
   {
     "title": "Are we aware of stroke risk factors and warning signs amid COVID-19? Knowledge and attitude towards risk-factors, signs and symptoms of stroke among the UAE population during COVID-19 pandemic: A cross-sectional study",
-    "authors": "A Ramadan, Z Kharaba, R Ghemrawi, et al",
+    "authors": "A Ramadan, Z Jaber Kharaba, R Ghemrawi, et al",
     "venue": "F1000Research, 2023",
     "year": "2023",
     "cited_by": 1,
@@ -937,7 +946,7 @@
   },
   {
     "title": "Community pharmacists’ knowledge, attitudes, and concerns about POCT in the UAE: a cross-sectional study",
-    "authors": "A S. Jarab, W Al‐Qerem, A Z. Al Meslamani, et al",
+    "authors": "A S. Jarab, W A. Al-Qerem, A Z. Al Meslamani, et al",
     "venue": "Future Science OA, 2025",
     "year": "2025",
     "cited_by": 1,
@@ -963,15 +972,6 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
-    "title": "Exploring knowledge, attitudes, and preventive practices related to dengue fever control: a cross-sectional study of 1,016 individuals",
-    "authors": "A S. Jarab, W Al‐Qerem, A Z Al Meslamani, et al",
-    "venue": "Pathogens and Global Health, 2026",
-    "year": "2026",
-    "cited_by": 1,
-    "link": "https://doi.org/10.1080/20477724.2026.2621706",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
     "title": "Gut–lung axis and microbiome interplay in type 2 high asthma",
     "authors": "A Z. Al Meslamani",
     "venue": "Expert Review of Respiratory Medicine, 2025",
@@ -982,11 +982,20 @@
   },
   {
     "title": "Human Middle East Respiratory Syndrome Coronavirus (MERS-CoV) research in the Gulf Cooperation Council Countries: A mapping scoping review of epidemiology, clade, and research priority gaps",
-    "authors": "R H. Al-Rifai, S Taher, H Amoodi, et al",
+    "authors": "R H. Al-Rifai, S Majdi Taher, H H. Amoodi, et al",
     "venue": "Journal of Infection and Public Health, 2026",
     "year": "2026",
     "cited_by": 1,
     "link": "https://doi.org/10.1016/j.jiph.2026.103272",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
+    "title": "Hurdles in the personalized medicine implementation path: public’s literacy and misconceptions of whole genomic sequencing test",
+    "authors": "A Ramadan, A S. Jarab, A Z. Al Meslamani, et al",
+    "venue": "Critical Public Health, 2025",
+    "year": "2025",
+    "cited_by": 1,
+    "link": "https://doi.org/10.1080/09581596.2025.2488119",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -1144,7 +1153,7 @@
   },
   {
     "title": "Factors associated with low-density lipoprotein control in outpatients with myocardial infarction: A hospital-based study",
-    "authors": "A S. Jarab, W Al-Qerem, R Mansour, et al",
+    "authors": "A S. Jarab, W A. Al-Qerem, R Mansour, et al",
     "venue": "PLoS ONE, 2026",
     "year": "2026",
     "cited_by": 0,
@@ -1152,21 +1161,21 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
+    "title": "From ADA positivity to clinical decision: a context-of-use framework for reflex testing, sampling frequency and stopping rules in immunogenicity assessment",
+    "authors": "A Z. Al Meslamani, A S. Jarab, H El Sharu, et al",
+    "venue": "Bioanalysis, 2026",
+    "year": "2026",
+    "cited_by": 0,
+    "link": "https://doi.org/10.1080/17576180.2026.2732419",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
     "title": "Harmonizing immunogenicity for AAV and LNP/mRNA modalities: best-practice panels for binding, neutralizing, and cellular assays with pre-existing immunity controls",
-    "authors": "A Z Al Meslamani, A S Jarab, E Merghani Ali Mohammed",
+    "authors": "A Z. Al Meslamani, A S. Jarab, E Merghani Ali Mohammed",
     "venue": "Bioanalysis, 2026",
     "year": "2026",
     "cited_by": 0,
     "link": "https://doi.org/10.1080/17576180.2026.2638522",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
-    "title": "Hurdles in the personalized medicine implementation path: public’s literacy and misconceptions of whole genomic sequencing test",
-    "authors": "A Ramadan, A S. Jarab, A Z. Al Meslamani, et al",
-    "venue": "Critical Public Health, 2025",
-    "year": "2025",
-    "cited_by": 0,
-    "link": "https://doi.org/10.1080/09581596.2025.2488119",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -1180,7 +1189,7 @@
   },
   {
     "title": "Job satisfaction and its demographic, occupational, and mental health determinants among community pharmacists",
-    "authors": "A S. Jarab, A Z. Al Meslamani, W Al-Qerem, et al",
+    "authors": "A S. Jarab, A Z. Al Meslamani, W A. Al-Qerem, et al",
     "venue": "PLoS ONE, 2026",
     "year": "2026",
     "cited_by": 0,
@@ -1197,8 +1206,17 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
+    "title": "Multidrug-resistant Pseudomonas aeruginosa in Jordan: epidemiology, trends, determinants, and clinical outcomes",
+    "authors": "A Z. Al Meslamani, D Abu‐Naser, A S. Jarab, et al",
+    "venue": "Current Medical Research and Opinion, 2026",
+    "year": "2026",
+    "cited_by": 0,
+    "link": "https://doi.org/10.1080/03007995.2026.2696049",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
     "title": "Occupational determinants of anxiety, depression, and stress among community pharmacists in Jordan: a cross-sectional study",
-    "authors": "A S. Jarab, W Al‐Qerem, A Z. Al Meslamani",
+    "authors": "A S. Jarab, W A. Al-Qerem, A Z. Al Meslamani",
     "venue": "Psychology Health & Medicine, 2025",
     "year": "2025",
     "cited_by": 0,
@@ -1207,7 +1225,7 @@
   },
   {
     "title": "Pharmacists, knowledge and counseling practices regarding tirzepatide for obesity and type 2 diabetes management in the UAE",
-    "authors": "A S. Jarab, J Abdallah, W Al Qerem, et al",
+    "authors": "A S. Jarab, J Abdallah, W A Al Qerem, et al",
     "venue": "Pharmacy Practice, 2026",
     "year": "2026",
     "cited_by": 0,
@@ -1225,7 +1243,7 @@
   },
   {
     "title": "Public knowledge, attitudes, and barriers to cancer screening in the UAE: a comprehensive assessment to inform screening practices",
-    "authors": "A S. Jarab, W Al-Qerem, H Jarab, et al",
+    "authors": "A S. Jarab, W A. Al-Qerem, H Jarab, et al",
     "venue": "Frontiers in Public Health, 2026",
     "year": "2026",
     "cited_by": 0,
@@ -1234,7 +1252,7 @@
   },
   {
     "title": "The Impact of a Community Pharmacy-Led Deworming-Related Counselling Service: An Interventional Study in a Low-to-Middle Income Country",
-    "authors": "A B. Kassem, A Z. Al Meslamani, M Abdelrahman, et al",
+    "authors": "A B. Kassem, A Z. Al Meslamani, M Mahmoud Abdelfattah Abdelrahman, et al",
     "venue": "Tropical Medicine and Infectious Disease, 2025",
     "year": "2025",
     "cited_by": 0,
@@ -1252,7 +1270,7 @@
   },
   {
     "title": "Understanding Gaps in Pharmacist–Patient Role Perceptions: Implications for Collaborative Care",
-    "authors": "A Jarab, W Al‐Qerem, A Alzoubi, et al",
+    "authors": "A Jarab, W A. Al-Qerem, A nor Aldin Alzoubi, et al",
     "venue": "Journal of Multidisciplinary Healthcare, 2026",
     "year": "2026",
     "cited_by": 0,
