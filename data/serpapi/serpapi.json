@@ -22,7 +22,7 @@
     "authors": "A Z. Al Meslamani, I Sobrino, J de la Fuente",
     "venue": "Annals of Medicine, 2024",
     "year": "2024",
-    "cited_by": 65,
+    "cited_by": 67,
     "link": "https://doi.org/10.1080/07853890.2024.2362869",
     "author_id": "usUecnoAAAAJ"
   },
@@ -31,7 +31,7 @@
     "authors": "A Z. Al Meslamani",
     "venue": "Journal of Medical Economics, 2023",
     "year": "2023",
-    "cited_by": 59,
+    "cited_by": 60,
     "link": "https://doi.org/10.1080/13696998.2023.2249757",
     "author_id": "usUecnoAAAAJ"
   },
@@ -108,21 +108,21 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
+    "title": "Artificial intelligence (AI) in pharmacy: an overview of innovations",
+    "authors": "A S. Jarab, S Abu Heshmeh, A Z. Al Meslamani",
+    "venue": "Journal of Medical Economics, 2023",
+    "year": "2023",
+    "cited_by": 32,
+    "link": "https://doi.org/10.1080/13696998.2023.2265245",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
     "title": "Virtual pharmacist interventions on abuse of over-the-counter medications during COVID-19 versus traditional pharmacist interventions",
     "authors": "N Al Mazrouei, R M. Ibrahim, A Z. Al Meslamani, et al",
     "venue": "Journal of the American Pharmacists Association, 2021",
     "year": "2021",
     "cited_by": 32,
     "link": "https://doi.org/10.1016/j.japh.2021.02.003",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
-    "title": "Artificial intelligence (AI) in pharmacy: an overview of innovations",
-    "authors": "A S. Jarab, S Abu Heshmeh, A Z. Al Meslamani",
-    "venue": "Journal of Medical Economics, 2023",
-    "year": "2023",
-    "cited_by": 31,
-    "link": "https://doi.org/10.1080/13696998.2023.2265245",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -220,8 +220,17 @@
     "authors": "A Z. Al Meslamani",
     "venue": "Journal of Medical Economics, 2024",
     "year": "2024",
-    "cited_by": 21,
+    "cited_by": 22,
     "link": "https://doi.org/10.1080/13696998.2024.2302254",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
+    "title": "What has changed in the pharmaceutical care after COVID-19: Pharmacists’ perspective",
+    "authors": "Z Jaber Kharaba, S A. Moutraji, R A Al Khawaldeh, et al",
+    "venue": "Pharmacy Practice, 2022",
+    "year": "2022",
+    "cited_by": 21,
+    "link": "https://doi.org/10.18549/pharmpract.2022.2.2656",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -234,21 +243,21 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
-    "title": "What has changed in the pharmaceutical care after COVID-19: Pharmacists’ perspective",
-    "authors": "Z Jaber Kharaba, S A. Moutraji, R A Al Khawaldeh, et al",
-    "venue": "Pharmacy Practice, 2022",
-    "year": "2022",
-    "cited_by": 20,
-    "link": "https://doi.org/10.18549/pharmpract.2022.2.2656",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
     "title": "Assessment of Extrapyramidal Symptoms Associated with Psychotropics Pharmacological Treatments, and Associated Risk Factors",
     "authors": "D Abu‐Naser, S Gharaibeh, A Z. Al Meslamani, et al",
     "venue": "Clinical Practice and Epidemiology in Mental Health, 2021",
     "year": "2021",
     "cited_by": 19,
     "link": "https://doi.org/10.2174/1745017902117010001",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
+    "title": "Insights into artificial intelligence utilisation in drug discovery",
+    "authors": "A Abou Hajal, A Z. Al Meslamani",
+    "venue": "Journal of Medical Economics, 2024",
+    "year": "2024",
+    "cited_by": 19,
+    "link": "https://doi.org/10.1080/13696998.2024.2315864",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -267,15 +276,6 @@
     "year": "2022",
     "cited_by": 18,
     "link": "https://doi.org/10.1016/j.vaccine.2022.03.003",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
-    "title": "Insights into artificial intelligence utilisation in drug discovery",
-    "authors": "A Abou Hajal, A Z. Al Meslamani",
-    "venue": "Journal of Medical Economics, 2024",
-    "year": "2024",
-    "cited_by": 18,
-    "link": "https://doi.org/10.1080/13696998.2024.2315864",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -355,7 +355,7 @@
     "authors": "A Abou Hajal, A Z. Al Meslamani",
     "venue": "Expert Opinion on Drug Metabolism & Toxicology, 2023",
     "year": "2023",
-    "cited_by": 13,
+    "cited_by": 14,
     "link": "https://doi.org/10.1080/17425255.2023.2294939",
     "author_id": "usUecnoAAAAJ"
   },
@@ -1018,7 +1018,7 @@
   },
   {
     "title": "Knowledge, Attitudes, and Practices of Community Pharmacists Regarding Proton Pump Inhibitor (PPI) Use: A Cross-Sectional Study",
-    "authors": "H Ahmed Mohamed Moustafa, A Z. Al Meslamani, H Ahmed, et al",
+    "authors": "H Ahmed Mohamed Moustafa, A Z. Al Meslamani, H Mohamed Metwaly Elsayed Ahmed, et al",
     "venue": "Healthcare, 2025",
     "year": "2025",
     "cited_by": 1,
@@ -1252,7 +1252,7 @@
   },
   {
     "title": "The Impact of a Community Pharmacy-Led Deworming-Related Counselling Service: An Interventional Study in a Low-to-Middle Income Country",
-    "authors": "A B. Kassem, A Z. Al Meslamani, M Mahmoud Abdelfattah Abdelrahman, et al",
+    "authors": "A B. Kassem, A Z. Al Meslamani, M Abdelrahman, et al",
     "venue": "Tropical Medicine and Infectious Disease, 2025",
     "year": "2025",
     "cited_by": 0,
