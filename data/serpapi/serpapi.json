@@ -13,7 +13,7 @@
     "authors": "A Z. Al Meslamani, I Sobrino, J de la Fuente",
     "venue": "Annals of Medicine, 2024",
     "year": "2024",
-    "cited_by": 68,
+    "cited_by": 69,
     "link": "https://doi.org/10.1080/07853890.2024.2362869",
     "author_id": "usUecnoAAAAJ"
   },
@@ -40,8 +40,17 @@
     "authors": "A Z. Al Meslamani, R Aldulaymi, H El Sharu, et al",
     "venue": "Journal of the American Pharmacists Association, 2022",
     "year": "2022",
-    "cited_by": 46,
+    "cited_by": 47,
     "link": "https://doi.org/10.1016/j.japh.2022.05.020",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
+    "title": "Applications of AI in pharmacy practice: a look at hospital and community settings",
+    "authors": "A Z. Al Meslamani",
+    "venue": "Journal of Medical Economics, 2023",
+    "year": "2023",
+    "cited_by": 41,
+    "link": "https://doi.org/10.1080/13696998.2023.2249758",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -54,21 +63,21 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
-    "title": "Applications of AI in pharmacy practice: a look at hospital and community settings",
-    "authors": "A Z. Al Meslamani",
-    "venue": "Journal of Medical Economics, 2023",
-    "year": "2023",
-    "cited_by": 40,
-    "link": "https://doi.org/10.1080/13696998.2023.2249758",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
     "title": "Incidence, nature, severity, and causes of dispensing errors in community pharmacies in Jordan",
     "authors": "D H. Abdel‐Qader, A Z. Al Meslamani, P J Lewis, et al",
     "venue": "International Journal of Clinical Pharmacy, 2020",
     "year": "2020",
     "cited_by": 40,
     "link": "https://doi.org/10.1007/s11096-020-01126-w",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
+    "title": "Underreporting of Adverse Drug Events: a Look into the Extent, Causes, and Potential Solutions",
+    "authors": "A Z. Al Meslamani",
+    "venue": "Expert Opinion on Drug Safety, 2023",
+    "year": "2023",
+    "cited_by": 40,
+    "link": "https://doi.org/10.1080/14740338.2023.2224558",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -81,12 +90,12 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
-    "title": "Underreporting of Adverse Drug Events: a Look into the Extent, Causes, and Potential Solutions",
-    "authors": "A Z. Al Meslamani",
-    "venue": "Expert Opinion on Drug Safety, 2023",
+    "title": "Artificial intelligence (AI) in pharmacy: an overview of innovations",
+    "authors": "A S. Jarab, S Abu Heshmeh, A Z. Al Meslamani",
+    "venue": "Journal of Medical Economics, 2023",
     "year": "2023",
-    "cited_by": 39,
-    "link": "https://doi.org/10.1080/14740338.2023.2224558",
+    "cited_by": 35,
+    "link": "https://doi.org/10.1080/13696998.2023.2265245",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -96,15 +105,6 @@
     "year": "2022",
     "cited_by": 35,
     "link": "https://doi.org/10.1155/2022/5762299",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
-    "title": "Artificial intelligence (AI) in pharmacy: an overview of innovations",
-    "authors": "A S. Jarab, S Abu Heshmeh, A Z. Al Meslamani",
-    "venue": "Journal of Medical Economics, 2023",
-    "year": "2023",
-    "cited_by": 32,
-    "link": "https://doi.org/10.1080/13696998.2023.2265245",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -144,21 +144,21 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
+    "title": "The evolving role of community pharmacists during COVID-19 in the UAE; assessing preparedness and knowledge",
+    "authors": "N Al Mazrouei, R M. Ibrahim, A Z. Al Meslamani, et al",
+    "venue": "International Journal of Pharmacy Practice, 2020",
+    "year": "2020",
+    "cited_by": 28,
+    "link": "https://doi.org/10.1093/ijpp/riaa003",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
     "title": "Knowledge, Attitudes, and Practices Concerning Breast Cancer and Self Examination Among Females in UAE",
     "authors": "Z Jaber Kharaba, M Ali Buabeid, A Ramadan, et al",
     "venue": "Journal of Community Health, 2021",
     "year": "2021",
     "cited_by": 27,
     "link": "https://doi.org/10.1007/s10900-021-00969-2",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
-    "title": "The evolving role of community pharmacists during COVID-19 in the UAE; assessing preparedness and knowledge",
-    "authors": "N Al Mazrouei, R M. Ibrahim, A Z. Al Meslamani, et al",
-    "venue": "International Journal of Pharmacy Practice, 2020",
-    "year": "2020",
-    "cited_by": 27,
-    "link": "https://doi.org/10.1093/ijpp/riaa003",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -364,7 +364,7 @@
     "authors": "A Z. Al Meslamani, D Abu‐Naser, R H. Al‐Rifai",
     "venue": "Scientific Reports, 2025",
     "year": "2025",
-    "cited_by": 13,
+    "cited_by": 14,
     "link": "https://doi.org/10.1038/s41598-025-03051-2",
     "author_id": "usUecnoAAAAJ"
   },
@@ -504,6 +504,24 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
+    "title": "The Effectiveness of Pharmacist-Based Coaching in Improving Breast Cancer-Related Health Behaviors: A Randomized Controlled Trial",
+    "authors": "O Mohamed Ibrahim, N A. El-Bassiouny, E Abdelhameed Dergham, et al",
+    "venue": "Pharmacy Practice, 2022",
+    "year": "2022",
+    "cited_by": 8,
+    "link": "https://doi.org/10.18549/pharmpract.2021.4.2563",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
+    "title": "Adoption of electronic patient medication records in community pharmacies in the United Arab Emirates: A cross-sectional survey",
+    "authors": "A Z. Al Meslamani, A S. Jarab, D H. Abdel‐Qader, et al",
+    "venue": "Health Information Management Journal, 2023",
+    "year": "2023",
+    "cited_by": 7,
+    "link": "https://doi.org/10.1177/18333583231190744",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
     "title": "Advancing towards a worldwide healthcare system in the post-COVID-19 era: benefits and barriers to international collaboration in healthcare",
     "authors": "A Z. Al Meslamani",
     "venue": "Journal of Medical Economics, 2023",
@@ -540,15 +558,6 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
-    "title": "Adoption of electronic patient medication records in community pharmacies in the United Arab Emirates: A cross-sectional survey",
-    "authors": "A Z. Al Meslamani, A S. Jarab, D H. Abdel‐Qader, et al",
-    "venue": "Health Information Management Journal, 2023",
-    "year": "2023",
-    "cited_by": 6,
-    "link": "https://doi.org/10.1177/18333583231190744",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
     "title": "Investigation of community pharmacists’ knowledge and attitudes of pharmacogenomics testing: implication for improved pharmacogenomic testing practice",
     "authors": "A Ramadan, A S. Jarab, A Z. Al Meslamani",
     "venue": "Human Genomics, 2024",
@@ -558,21 +567,30 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
-    "title": "The Effectiveness of Pharmacist-Based Coaching in Improving Breast Cancer-Related Health Behaviors: A Randomized Controlled Trial",
-    "authors": "O Mohamed Ibrahim, N A. El-Bassiouny, E Abdelhameed Dergham, et al",
-    "venue": "Pharmacy Practice, 2022",
-    "year": "2022",
-    "cited_by": 6,
-    "link": "https://doi.org/10.18549/pharmpract.2021.4.2563",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
     "title": "The patterns of herbal medicine use in the United Arab Emirates; A national study",
     "authors": "N Al Mazrouei, A Z. Al Meslamani, R Alajeel, et al",
     "venue": "Pharmacy Practice, 2022",
     "year": "2022",
     "cited_by": 6,
     "link": "https://doi.org/10.18549/pharmpract.2022.3.2698",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
+    "title": "A novel educational approach for improving medication-related problems in community pharmacies",
+    "authors": "N Al Mazrouei, R M. Ibrahim, A Z. Al Meslamani, et al",
+    "venue": "Research in Social and Administrative Pharmacy, 2021",
+    "year": "2021",
+    "cited_by": 5,
+    "link": "https://doi.org/10.1016/j.sapharm.2021.04.017",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
+    "title": "Assessment of changes in the epidemiology and prognosis of non-SARS-CoV-2 respiratory infections one year after recovery from COVID-19",
+    "authors": "A Z. Al Meslamani, N Sammani",
+    "venue": "Respiratory Investigation, 2023",
+    "year": "2023",
+    "cited_by": 5,
+    "link": "https://doi.org/10.1016/j.resinv.2023.03.006",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -612,30 +630,12 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
-    "title": "A novel educational approach for improving medication-related problems in community pharmacies",
-    "authors": "N Al Mazrouei, R M. Ibrahim, A Z. Al Meslamani, et al",
-    "venue": "Research in Social and Administrative Pharmacy, 2021",
-    "year": "2021",
-    "cited_by": 4,
-    "link": "https://doi.org/10.1016/j.sapharm.2021.04.017",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
     "title": "Assessment of a new strategy for catalyzing deprescribing in community pharmacies",
     "authors": "O Mohamed Ibrahim, N Al Mazrouei, A Z. Al Meslamani, et al",
     "venue": "Journal of the American Pharmacists Association, 2021",
     "year": "2021",
     "cited_by": 4,
     "link": "https://doi.org/10.1016/j.japh.2021.09.003",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
-    "title": "Assessment of changes in the epidemiology and prognosis of non-SARS-CoV-2 respiratory infections one year after recovery from COVID-19",
-    "authors": "A Z. Al Meslamani, N Sammani",
-    "venue": "Respiratory Investigation, 2023",
-    "year": "2023",
-    "cited_by": 4,
-    "link": "https://doi.org/10.1016/j.resinv.2023.03.006",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -756,12 +756,30 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
+    "title": "The Role of Pharmacists in Public Health and Disease Prevention: What Do We Know?",
+    "authors": "A Z. Al Meslamani",
+    "venue": "Clinical Pharmacy Connect, 2025",
+    "year": "2025",
+    "cited_by": 3,
+    "link": "https://doi.org/10.69709/cpc.2025.113833",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
     "title": "Will SARS-CoV-2 impact the incidence and nature of other respiratory infections?",
     "authors": "A Z. Al Meslamani",
     "venue": "Expert Review of Clinical Immunology, 2023",
     "year": "2023",
     "cited_by": 3,
     "link": "https://doi.org/10.1080/1744666x.2023.2263646",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
+    "title": "AI-enhanced therapeutic drug monitoring for vancomycin and β-lactam antibiotics in critical care: from population PK to bedside algorithms",
+    "authors": "A Z. Al Meslamani, A S. Jarab, E Merghani Ali Mohammed",
+    "venue": "Expert Review of Clinical Pharmacology, 2026",
+    "year": "2026",
+    "cited_by": 2,
+    "link": "https://doi.org/10.1080/17512433.2026.2638352",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -780,6 +798,15 @@
     "year": "2024",
     "cited_by": 2,
     "link": "https://doi.org/10.1080/14737167.2024.2334893",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
+    "title": "Community pharmacists’ knowledge, attitudes, and concerns about POCT in the UAE: a cross-sectional study",
+    "authors": "A S. Jarab, W A. Al-Qerem, A Z. Al Meslamani, et al",
+    "venue": "Future Science OA, 2025",
+    "year": "2025",
+    "cited_by": 2,
+    "link": "https://doi.org/10.1080/20565623.2025.2589042",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -837,15 +864,6 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
-    "title": "The Role of Pharmacists in Public Health and Disease Prevention: What Do We Know?",
-    "authors": "A Z. Al Meslamani",
-    "venue": "Clinical Pharmacy Connect, 2025",
-    "year": "2025",
-    "cited_by": 2,
-    "link": "https://doi.org/10.69709/cpc.2025.113833",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
     "title": "The effect of educational interventions on medication dispensing errors: a randomised controlled trial in community pharmacies in Jordan",
     "authors": "D H. Abdel‐Qader, A Z. Al Meslamani, N Al Mazrouei, et al",
     "venue": "Drugs & Therapy Perspectives, 2021",
@@ -879,15 +897,6 @@
     "year": "2024",
     "cited_by": 2,
     "link": "https://doi.org/10.1080/14740338.2024.2305368",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
-    "title": "AI-enhanced therapeutic drug monitoring for vancomycin and β-lactam antibiotics in critical care: from population PK to bedside algorithms",
-    "authors": "A Z. Al Meslamani, A S. Jarab, E Merghani Ali Mohammed",
-    "venue": "Expert Review of Clinical Pharmacology, 2026",
-    "year": "2026",
-    "cited_by": 1,
-    "link": "https://doi.org/10.1080/17512433.2026.2638352",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -951,15 +960,6 @@
     "year": "2026",
     "cited_by": 1,
     "link": "https://doi.org/10.2147/jmdh.s580863",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
-    "title": "Community pharmacists’ knowledge, attitudes, and concerns about POCT in the UAE: a cross-sectional study",
-    "authors": "A S. Jarab, W A. Al-Qerem, A Z. Al Meslamani, et al",
-    "venue": "Future Science OA, 2025",
-    "year": "2025",
-    "cited_by": 1,
-    "link": "https://doi.org/10.1080/20565623.2025.2589042",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -1230,6 +1230,15 @@
     "year": "2026",
     "cited_by": 0,
     "link": "https://doi.org/10.18549/pharmpract.2026.3.3596",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
+    "title": "Point-of-care testing in UAE community pharmacies: adoption, operational practices, and quality challenges",
+    "authors": "A S. Jarab, W Al-Qerem, A Z. Al Meslamani, et al",
+    "venue": "Frontiers in Medicine, 2026",
+    "year": "2026",
+    "cited_by": 0,
+    "link": "https://doi.org/10.3389/fmed.2026.1970393",
     "author_id": "usUecnoAAAAJ"
   },
   {
