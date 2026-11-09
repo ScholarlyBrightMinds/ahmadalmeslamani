@@ -4,17 +4,8 @@
     "authors": "O Mohamed Ibrahim, R M. Ibrahim, A Z. Al Meslamani, et al",
     "venue": "Journal of Telemedicine and Telecare, 2020",
     "year": "2020",
-    "cited_by": 75,
+    "cited_by": 84,
     "link": "https://doi.org/10.1177/1357633x20964347",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
-    "title": "Machine learning in infectious diseases: potential applications and limitations",
-    "authors": "A Z. Al Meslamani, I Sobrino, J de la Fuente",
-    "venue": "Annals of Medicine, 2024",
-    "year": "2024",
-    "cited_by": 70,
-    "link": "https://doi.org/10.1080/07853890.2024.2362869",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -22,8 +13,17 @@
     "authors": "O Mohamed Ibrahim, R M. Ibrahim, D H. Abdel‐Qader, et al",
     "venue": "Telemedicine Journal and e-Health, 2020",
     "year": "2020",
-    "cited_by": 67,
+    "cited_by": 77,
     "link": "https://doi.org/10.1089/tmj.2020.0283",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
+    "title": "Machine learning in infectious diseases: potential applications and limitations",
+    "authors": "A Z. Al Meslamani, I Sobrino, J de la Fuente",
+    "venue": "Annals of Medicine, 2024",
+    "year": "2024",
+    "cited_by": 75,
+    "link": "https://doi.org/10.1080/07853890.2024.2362869",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -31,7 +31,7 @@
     "authors": "A Z. Al Meslamani",
     "venue": "Journal of Medical Economics, 2023",
     "year": "2023",
-    "cited_by": 62,
+    "cited_by": 74,
     "link": "https://doi.org/10.1080/13696998.2023.2249757",
     "author_id": "usUecnoAAAAJ"
   },
@@ -40,8 +40,26 @@
     "authors": "A Z. Al Meslamani, R Aldulaymi, H El Sharu, et al",
     "venue": "Journal of the American Pharmacists Association, 2022",
     "year": "2022",
-    "cited_by": 47,
+    "cited_by": 49,
     "link": "https://doi.org/10.1016/j.japh.2022.05.020",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
+    "title": "Caffeine Consumption among Various University Students in the UAE, Exploring the Frequencies, Different Sources and Reporting Adverse Effects and Withdrawal Symptoms",
+    "authors": "Z Jaber Kharaba, N Sammani, S Ashour, et al",
+    "venue": "Journal of Nutrition and Metabolism, 2022",
+    "year": "2022",
+    "cited_by": 47,
+    "link": "https://doi.org/10.1155/2022/5762299",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
+    "title": "Underreporting of Adverse Drug Events: a Look into the Extent, Causes, and Potential Solutions",
+    "authors": "A Z. Al Meslamani",
+    "venue": "Expert Opinion on Drug Safety, 2023",
+    "year": "2023",
+    "cited_by": 46,
+    "link": "https://doi.org/10.1080/14740338.2023.2224558",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -49,8 +67,26 @@
     "authors": "A Z. Al Meslamani",
     "venue": "Journal of Medical Economics, 2023",
     "year": "2023",
-    "cited_by": 41,
+    "cited_by": 45,
     "link": "https://doi.org/10.1080/13696998.2023.2249758",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
+    "title": "Artificial intelligence (AI) in pharmacy: an overview of innovations",
+    "authors": "A S. Jarab, S Abu Heshmeh, A Z. Al Meslamani",
+    "venue": "Journal of Medical Economics, 2023",
+    "year": "2023",
+    "cited_by": 45,
+    "link": "https://doi.org/10.1080/13696998.2023.2265245",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
+    "title": "Incidence, nature, severity, and causes of dispensing errors in community pharmacies in Jordan",
+    "authors": "D H. Abdel‐Qader, A Z. Al Meslamani, P J Lewis, et al",
+    "venue": "International Journal of Clinical Pharmacy, 2020",
+    "year": "2020",
+    "cited_by": 44,
+    "link": "https://doi.org/10.1007/s11096-020-01126-w",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -63,24 +99,6 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
-    "title": "Incidence, nature, severity, and causes of dispensing errors in community pharmacies in Jordan",
-    "authors": "D H. Abdel‐Qader, A Z. Al Meslamani, P J Lewis, et al",
-    "venue": "International Journal of Clinical Pharmacy, 2020",
-    "year": "2020",
-    "cited_by": 40,
-    "link": "https://doi.org/10.1007/s11096-020-01126-w",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
-    "title": "Underreporting of Adverse Drug Events: a Look into the Extent, Causes, and Potential Solutions",
-    "authors": "A Z. Al Meslamani",
-    "venue": "Expert Opinion on Drug Safety, 2023",
-    "year": "2023",
-    "cited_by": 40,
-    "link": "https://doi.org/10.1080/14740338.2023.2224558",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
     "title": "Dispensing errors in community pharmacies in the United Arab Emirates: investigating incidence, types, severity, and causes",
     "authors": "O Mohamed Ibrahim, R M. Ibrahim, A Z. Al Meslamani, et al",
     "venue": "Pharmacy Practice, 2020",
@@ -90,21 +108,21 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
-    "title": "Artificial intelligence (AI) in pharmacy: an overview of innovations",
-    "authors": "A S. Jarab, S Abu Heshmeh, A Z. Al Meslamani",
+    "title": "Beyond implementation: the long-term economic impact of AI in healthcare",
+    "authors": "A Z. Al Meslamani",
     "venue": "Journal of Medical Economics, 2023",
     "year": "2023",
-    "cited_by": 36,
-    "link": "https://doi.org/10.1080/13696998.2023.2265245",
+    "cited_by": 34,
+    "link": "https://doi.org/10.1080/13696998.2023.2285186",
     "author_id": "usUecnoAAAAJ"
   },
   {
-    "title": "Caffeine Consumption among Various University Students in the UAE, Exploring the Frequencies, Different Sources and Reporting Adverse Effects and Withdrawal Symptoms",
-    "authors": "Z Jaber Kharaba, N Sammani, S Ashour, et al",
-    "venue": "Journal of Nutrition and Metabolism, 2022",
-    "year": "2022",
-    "cited_by": 35,
-    "link": "https://doi.org/10.1155/2022/5762299",
+    "title": "The evolving role of community pharmacists during COVID-19 in the UAE; assessing preparedness and knowledge",
+    "authors": "N Al Mazrouei, R M. Ibrahim, A Z. Al Meslamani, et al",
+    "venue": "International Journal of Pharmacy Practice, 2020",
+    "year": "2020",
+    "cited_by": 33,
+    "link": "https://doi.org/10.1093/ijpp/riaa003",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -112,8 +130,17 @@
     "authors": "D H. Abdel‐Qader, W Ahmad Hayajneh, A Albassam, et al",
     "venue": "Vaccine X, 2021",
     "year": "2021",
-    "cited_by": 31,
+    "cited_by": 32,
     "link": "https://doi.org/10.1016/j.jvacx.2021.100135",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
+    "title": "The Role of Clinical Pharmacy in Preventing Prescribing Errors in the Emergency Department of a Governmental Hospital in Jordan: A Pre-Post Study",
+    "authors": "D H. Abdel‐Qader, N Saadi Ismael, A Z. Al Meslamani, et al",
+    "venue": "Hospital Pharmacy, 2020",
+    "year": "2020",
+    "cited_by": 31,
+    "link": "https://doi.org/10.1177/0018578720942231",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -126,30 +153,12 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
-    "title": "Beyond implementation: the long-term economic impact of AI in healthcare",
+    "title": "Antibiotic resistance in low- and middle-income countries: current practices and its global implications",
     "authors": "A Z. Al Meslamani",
-    "venue": "Journal of Medical Economics, 2023",
+    "venue": "Expert Review of Anti-infective Therapy, 2023",
     "year": "2023",
-    "cited_by": 28,
-    "link": "https://doi.org/10.1080/13696998.2023.2285186",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
-    "title": "The Role of Clinical Pharmacy in Preventing Prescribing Errors in the Emergency Department of a Governmental Hospital in Jordan: A Pre-Post Study",
-    "authors": "D H. Abdel‐Qader, N Saadi Ismael, A Z. Al Meslamani, et al",
-    "venue": "Hospital Pharmacy, 2020",
-    "year": "2020",
-    "cited_by": 28,
-    "link": "https://doi.org/10.1177/0018578720942231",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
-    "title": "The evolving role of community pharmacists during COVID-19 in the UAE; assessing preparedness and knowledge",
-    "authors": "N Al Mazrouei, R M. Ibrahim, A Z. Al Meslamani, et al",
-    "venue": "International Journal of Pharmacy Practice, 2020",
-    "year": "2020",
-    "cited_by": 28,
-    "link": "https://doi.org/10.1093/ijpp/riaa003",
+    "cited_by": 27,
+    "link": "https://doi.org/10.1080/14787210.2023.2268835",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -162,21 +171,21 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
-    "title": "Knowledge, Attitudes, and Practices Concerning Breast Cancer and Self Examination Among Females in UAE",
-    "authors": "Z Jaber Kharaba, M Ali Buabeid, A Ramadan, et al",
-    "venue": "Journal of Community Health, 2021",
-    "year": "2021",
-    "cited_by": 27,
-    "link": "https://doi.org/10.1007/s10900-021-00969-2",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
     "title": "Knowledge and Beliefs of Jordanian Community Toward E-cigarettes: A National Survey",
     "authors": "D H. Abdel‐Qader, A Z. Al Meslamani",
     "venue": "Journal of Community Health, 2020",
     "year": "2020",
     "cited_by": 26,
     "link": "https://doi.org/10.1007/s10900-020-00896-8",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
+    "title": "Knowledge, Attitudes, and Practices Concerning Breast Cancer and Self Examination Among Females in UAE",
+    "authors": "Z Jaber Kharaba, M Ali Buabeid, A Ramadan, et al",
+    "venue": "Journal of Community Health, 2021",
+    "year": "2021",
+    "cited_by": 26,
+    "link": "https://doi.org/10.1007/s10900-021-00969-2",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -189,20 +198,11 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
-    "title": "Antibiotic resistance in low- and middle-income countries: current practices and its global implications",
-    "authors": "A Z. Al Meslamani",
-    "venue": "Expert Review of Anti-infective Therapy, 2023",
-    "year": "2023",
-    "cited_by": 23,
-    "link": "https://doi.org/10.1080/14787210.2023.2268835",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
     "title": "Herbal medicine use in the Jordanian population: A nationally representative cross-sectional survey",
     "authors": "D H. Abdel‐Qader, A Albassam, N Saadi Ismael, et al",
     "venue": "Journal of Pharmacy & Pharmacognosy Research, 2020",
     "year": "2020",
-    "cited_by": 23,
+    "cited_by": 24,
     "link": "https://doi.org/10.56499/jppres20.902_8.6.525",
     "author_id": "usUecnoAAAAJ"
   },
@@ -211,8 +211,35 @@
     "authors": "A Z. Al Meslamani",
     "venue": "Expert Opinion on Drug Safety, 2023",
     "year": "2023",
-    "cited_by": 22,
+    "cited_by": 24,
     "link": "https://doi.org/10.1080/14740338.2023.2181954",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
+    "title": "Why are digital health policies crucial?",
+    "authors": "A Z. Al Meslamani",
+    "venue": "Journal of Medical Economics, 2024",
+    "year": "2024",
+    "cited_by": 24,
+    "link": "https://doi.org/10.1080/13696998.2024.2302254",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
+    "title": "Insights into artificial intelligence utilisation in drug discovery",
+    "authors": "A Abou Hajal, A Z. Al Meslamani",
+    "venue": "Journal of Medical Economics, 2024",
+    "year": "2024",
+    "cited_by": 22,
+    "link": "https://doi.org/10.1080/13696998.2024.2315864",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
+    "title": "The impact of telepharmacy on hypertension management in the United Arab Emirates",
+    "authors": "O Mohamed Ibrahim, A Z. Al Meslamani, R M. Ibrahim, et al",
+    "venue": "Pharmacy Practice, 2022",
+    "year": "2022",
+    "cited_by": 22,
+    "link": "https://doi.org/10.18549/pharmpract.2022.4.2734",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -225,15 +252,6 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
-    "title": "Why are digital health policies crucial?",
-    "authors": "A Z. Al Meslamani",
-    "venue": "Journal of Medical Economics, 2024",
-    "year": "2024",
-    "cited_by": 22,
-    "link": "https://doi.org/10.1080/13696998.2024.2302254",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
     "title": "Bridging the gap: The future of biosimilars regulations",
     "authors": "A S. Jarab, S Abu Heshmeh, A Z. Al Meslamani",
     "venue": "Human Vaccines & Immunotherapeutics, 2024",
@@ -243,12 +261,21 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
-    "title": "Insights into artificial intelligence utilisation in drug discovery",
-    "authors": "A Abou Hajal, A Z. Al Meslamani",
-    "venue": "Journal of Medical Economics, 2024",
-    "year": "2024",
+    "title": "Gaps in digital health policies: an insight into the current landscape",
+    "authors": "A Z. Al Meslamani",
+    "venue": "Journal of Medical Economics, 2023",
+    "year": "2023",
     "cited_by": 20,
-    "link": "https://doi.org/10.1080/13696998.2024.2315864",
+    "link": "https://doi.org/10.1080/13696998.2023.2266955",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
+    "title": "The future of precision medicine in oncology",
+    "authors": "A Z. Al Meslamani",
+    "venue": "Expert Review of Precision Medicine and Drug Development, 2023",
+    "year": "2023",
+    "cited_by": 20,
+    "link": "https://doi.org/10.1080/23808993.2023.2292988",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -261,12 +288,21 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
-    "title": "Gaps in digital health policies: an insight into the current landscape",
+    "title": "Community pharmacists’ knowledge of and attitudes toward antibiotic use, resistance, and self-medication in Jordan",
+    "authors": "D H. Abdel‐Qader, A Albassam, N Saadi Ismael, et al",
+    "venue": "Drugs & Therapy Perspectives, 2020",
+    "year": "2020",
+    "cited_by": 18,
+    "link": "https://doi.org/10.1007/s40267-020-00797-9",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
+    "title": "How AI is advancing asthma management? Insights into economic and clinical aspects",
     "authors": "A Z. Al Meslamani",
     "venue": "Journal of Medical Economics, 2023",
     "year": "2023",
     "cited_by": 18,
-    "link": "https://doi.org/10.1080/13696998.2023.2266955",
+    "link": "https://doi.org/10.1080/13696998.2023.2277072",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -279,6 +315,15 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
+    "title": "Policy solutions for medication non-adherence: what can governments do?",
+    "authors": "A Z. Al Meslamani",
+    "venue": "Expert Review of Pharmacoeconomics & Outcomes Research, 2024",
+    "year": "2024",
+    "cited_by": 18,
+    "link": "https://doi.org/10.1080/14737167.2024.2321242",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
     "title": "Real-World Effectiveness of Four Types of COVID-19 Vaccines",
     "authors": "D H. Abdel‐Qader, H Abdel-Qader, J Silverthorne, et al",
     "venue": "Vaccines, 2023",
@@ -288,57 +333,12 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
-    "title": "The future of precision medicine in oncology",
-    "authors": "A Z. Al Meslamani",
-    "venue": "Expert Review of Precision Medicine and Drug Development, 2023",
-    "year": "2023",
-    "cited_by": 18,
-    "link": "https://doi.org/10.1080/23808993.2023.2292988",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
-    "title": "Community pharmacists’ knowledge of and attitudes toward antibiotic use, resistance, and self-medication in Jordan",
-    "authors": "D H. Abdel‐Qader, A Albassam, N Saadi Ismael, et al",
-    "venue": "Drugs & Therapy Perspectives, 2020",
-    "year": "2020",
-    "cited_by": 17,
-    "link": "https://doi.org/10.1007/s40267-020-00797-9",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
-    "title": "Policy solutions for medication non-adherence: what can governments do?",
-    "authors": "A Z. Al Meslamani",
-    "venue": "Expert Review of Pharmacoeconomics & Outcomes Research, 2024",
-    "year": "2024",
-    "cited_by": 17,
-    "link": "https://doi.org/10.1080/14737167.2024.2321242",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
     "title": "The Abuse and Misuse of Over-the-Counter Medicines During COVID-19",
     "authors": "A Z. Al Meslamani, D H. Abdel‐Qader",
     "venue": "Hospital Pharmacy, 2023",
     "year": "2023",
     "cited_by": 17,
     "link": "https://doi.org/10.1177/00185787231158777",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
-    "title": "The impact of telepharmacy on hypertension management in the United Arab Emirates",
-    "authors": "O Mohamed Ibrahim, A Z. Al Meslamani, R M. Ibrahim, et al",
-    "venue": "Pharmacy Practice, 2022",
-    "year": "2022",
-    "cited_by": 17,
-    "link": "https://doi.org/10.18549/pharmpract.2022.4.2734",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
-    "title": "How AI is advancing asthma management? Insights into economic and clinical aspects",
-    "authors": "A Z. Al Meslamani",
-    "venue": "Journal of Medical Economics, 2023",
-    "year": "2023",
-    "cited_by": 16,
-    "link": "https://doi.org/10.1080/13696998.2023.2277072",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -364,12 +364,30 @@
     "authors": "A Z. Al Meslamani, D Abu‐Naser, R H. Al‐Rifai",
     "venue": "Scientific Reports, 2025",
     "year": "2025",
-    "cited_by": 14,
+    "cited_by": 15,
     "link": "https://doi.org/10.1038/s41598-025-03051-2",
     "author_id": "usUecnoAAAAJ"
   },
   {
-    "title": "Assessment of Knowledge and attitude towards Stroke among the UAE population during the COVID-19 pandemic: A cross-sectional study",
+    "title": "Short and long-term economic implications of biosimilars",
+    "authors": "A Z. Al Meslamani",
+    "venue": "Expert Opinion on Biological Therapy, 2024",
+    "year": "2024",
+    "cited_by": 14,
+    "link": "https://doi.org/10.1080/14712598.2024.2307353",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
+    "title": "Adverse drug event reporting among women: uncovering disparities in underserved communities",
+    "authors": "A Z. Al Meslamani",
+    "venue": "Expert Opinion on Drug Safety, 2024",
+    "year": "2024",
+    "cited_by": 13,
+    "link": "https://doi.org/10.1080/14740338.2024.2337745",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
+    "title": "Are we aware of stroke risk factors and warning signs amid COVID-19? Knowledge and attitude towards risk-factors, signs and symptoms of stroke among the UAE population during COVID-19 pandemic: A cross-sectional study",
     "authors": "A Ramadan, Z Jaber Kharaba, R Ghemrawi, et al",
     "venue": "F1000Research, 2023",
     "year": "2023",
@@ -382,7 +400,7 @@
     "authors": "A Z. Al Meslamani, A Abou Hajal",
     "venue": "Expert Opinion on Drug Metabolism & Toxicology, 2025",
     "year": "2025",
-    "cited_by": 12,
+    "cited_by": 13,
     "link": "https://doi.org/10.1080/17425255.2025.2551724",
     "author_id": "usUecnoAAAAJ"
   },
@@ -391,8 +409,17 @@
     "authors": "A Z. Al Meslamani",
     "venue": "Expert Review of Clinical Pharmacology, 2025",
     "year": "2025",
-    "cited_by": 12,
+    "cited_by": 13,
     "link": "https://doi.org/10.1080/17512433.2025.2519648",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
+    "title": "Challenges in health economics research: insights from real-world examples",
+    "authors": "A Z. Al Meslamani",
+    "venue": "Journal of Medical Economics, 2024",
+    "year": "2024",
+    "cited_by": 12,
+    "link": "https://doi.org/10.1080/13696998.2024.2310466",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -414,30 +441,21 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
-    "title": "Challenges in health economics research: insights from real-world examples",
-    "authors": "A Z. Al Meslamani",
-    "venue": "Journal of Medical Economics, 2024",
-    "year": "2024",
-    "cited_by": 10,
-    "link": "https://doi.org/10.1080/13696998.2024.2310466",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
-    "title": "Short and long-term economic implications of biosimilars",
-    "authors": "A Z. Al Meslamani",
-    "venue": "Expert Opinion on Biological Therapy, 2024",
-    "year": "2024",
-    "cited_by": 10,
-    "link": "https://doi.org/10.1080/14712598.2024.2307353",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
     "title": "The pharmacists’ interventions after a Drug and Therapeutics Committee (DTC) establishment during the COVID-19 pandemic",
     "authors": "A B. Kassem, A Z. Al Meslamani, D H. Elmaghraby, et al",
     "venue": "Journal of Pharmaceutical Policy and Practice, 2024",
     "year": "2024",
-    "cited_by": 10,
+    "cited_by": 11,
     "link": "https://doi.org/10.1080/20523211.2024.2372040",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
+    "title": "Barriers to digital endpoints in data collection in low and middle-income countries",
+    "authors": "A Z. Al Meslamani",
+    "venue": "Expert Review of Pharmacoeconomics & Outcomes Research, 2024",
+    "year": "2024",
+    "cited_by": 10,
+    "link": "https://doi.org/10.1080/14737167.2024.2331047",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -459,15 +477,6 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
-    "title": "Barriers to digital endpoints in data collection in low and middle-income countries",
-    "authors": "A Z. Al Meslamani",
-    "venue": "Expert Review of Pharmacoeconomics & Outcomes Research, 2024",
-    "year": "2024",
-    "cited_by": 9,
-    "link": "https://doi.org/10.1080/14737167.2024.2331047",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
     "title": "Biosimilars and immunogenicity: a matter of concern?",
     "authors": "A S. Jarab, S Abu Heshmeh, A Z. Al Meslamani",
     "venue": "Expert Opinion on Drug Safety, 2025",
@@ -486,12 +495,12 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
-    "title": "Adverse drug event reporting among women: uncovering disparities in underserved communities",
-    "authors": "A Z. Al Meslamani",
-    "venue": "Expert Opinion on Drug Safety, 2024",
-    "year": "2024",
+    "title": "Assessment of inappropriate prescribing of QT interval-prolonging drugs in end-stage renal disease patients in Jordan",
+    "authors": "A Z. Al Meslamani, D Abu‐Naser, D H. Abdel‐Qader, et al",
+    "venue": "Drugs & Therapy Perspectives, 2021",
+    "year": "2021",
     "cited_by": 8,
-    "link": "https://doi.org/10.1080/14740338.2024.2337745",
+    "link": "https://doi.org/10.1007/s40267-020-00806-x",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -501,15 +510,6 @@
     "year": "2021",
     "cited_by": 8,
     "link": "https://doi.org/10.51847/czfm36e",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
-    "title": "The Effectiveness of Pharmacist-Based Coaching in Improving Breast Cancer-Related Health Behaviors: A Randomized Controlled Trial",
-    "authors": "O Mohamed Ibrahim, N A. El-Bassiouny, E Abdelhameed Dergham, et al",
-    "venue": "Pharmacy Practice, 2022",
-    "year": "2022",
-    "cited_by": 8,
-    "link": "https://doi.org/10.18549/pharmpract.2021.4.2563",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -528,15 +528,6 @@
     "year": "2023",
     "cited_by": 7,
     "link": "https://doi.org/10.1080/13696998.2023.2207423",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
-    "title": "Assessment of inappropriate prescribing of QT interval-prolonging drugs in end-stage renal disease patients in Jordan",
-    "authors": "A Z. Al Meslamani, D Abu‐Naser, D H. Abdel‐Qader, et al",
-    "venue": "Drugs & Therapy Perspectives, 2021",
-    "year": "2021",
-    "cited_by": 7,
-    "link": "https://doi.org/10.1007/s40267-020-00806-x",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -562,17 +553,35 @@
     "authors": "A Ramadan, A S. Jarab, A Z. Al Meslamani",
     "venue": "Human Genomics, 2024",
     "year": "2024",
-    "cited_by": 6,
+    "cited_by": 7,
     "link": "https://doi.org/10.1186/s40246-024-00574-z",
     "author_id": "usUecnoAAAAJ"
   },
   {
-    "title": "The patterns of herbal medicine use in the United Arab Emirates; A national study",
-    "authors": "N Al Mazrouei, A Z. Al Meslamani, R Alajeel, et al",
+    "title": "The Effectiveness of Pharmacist-Based Coaching in Improving Breast Cancer-Related Health Behaviors: A Randomized Controlled Trial",
+    "authors": "O Mohamed Ibrahim, N A. El-Bassiouny, E Abdelhameed Dergham, et al",
     "venue": "Pharmacy Practice, 2022",
     "year": "2022",
+    "cited_by": 7,
+    "link": "https://doi.org/10.18549/pharmpract.2021.4.2563",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
+    "title": "Barriers to transforming community pharmacies into point-of-care testing sites in low- and middle-income countries",
+    "authors": "A S. Jarab, S Abu Heshmeh, A Z. Al Meslamani",
+    "venue": "International Journal of Pharmacy Practice, 2024",
+    "year": "2024",
     "cited_by": 6,
-    "link": "https://doi.org/10.18549/pharmpract.2022.3.2698",
+    "link": "https://doi.org/10.1093/ijpp/riae011",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
+    "title": "Utilization, perceived benefits and concerns regarding robotic technologies among community pharmacists",
+    "authors": "A S. Jarab, A Z. Al Meslamani, W A. Al-Qerem, et al",
+    "venue": "Future Science OA, 2025",
+    "year": "2025",
+    "cited_by": 6,
+    "link": "https://doi.org/10.1080/20565623.2025.2514932",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -594,12 +603,21 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
-    "title": "Barriers to transforming community pharmacies into point-of-care testing sites in low- and middle-income countries",
-    "authors": "A S. Jarab, S Abu Heshmeh, A Z. Al Meslamani",
-    "venue": "International Journal of Pharmacy Practice, 2024",
+    "title": "Disparities in drug safety practices in developing nations: focusing on underlying factors and implications for global health",
+    "authors": "A Z. Al Meslamani, D H. Abdel‐Qader, A B. Kassem, et al",
+    "venue": "Expert Opinion on Drug Safety, 2024",
     "year": "2024",
     "cited_by": 5,
-    "link": "https://doi.org/10.1093/ijpp/riae011",
+    "link": "https://doi.org/10.1080/14740338.2024.2326488",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
+    "title": "Examining the impact of biosimilar-to-biosimilar transition on effectiveness and safety",
+    "authors": "A S. Jarab, S Abu Heshmeh, A Z. Al Meslamani",
+    "venue": "Expert Opinion on Biological Therapy, 2024",
+    "year": "2024",
+    "cited_by": 5,
+    "link": "https://doi.org/10.1080/14712598.2024.2324123",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -621,12 +639,30 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
+    "title": "Strategies for reducing chronic disease burden during pandemics",
+    "authors": "A Z. Al Meslamani",
+    "venue": "Current Medical Research and Opinion, 2023",
+    "year": "2023",
+    "cited_by": 5,
+    "link": "https://doi.org/10.1080/03007995.2023.2295410",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
     "title": "Systematic review of the safety and efficacy of antazoline in the treatment of atrial fibrillation",
     "authors": "R Aldulaymi, A Z. Al Meslamani",
     "venue": "Journal of Pharmacy & Pharmacognosy Research, 2022",
     "year": "2022",
     "cited_by": 5,
     "link": "https://doi.org/10.56499/jppres21.1182_10.1.147",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
+    "title": "The patterns of herbal medicine use in the United Arab Emirates; A national study",
+    "authors": "N Al Mazrouei, A Z. Al Meslamani, R Alajeel, et al",
+    "venue": "Pharmacy Practice, 2022",
+    "year": "2022",
+    "cited_by": 5,
+    "link": "https://doi.org/10.18549/pharmpract.2022.3.2698",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -675,21 +711,12 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
-    "title": "Disparities in drug safety practices in developing nations: focusing on underlying factors and implications for global health",
-    "authors": "A Z. Al Meslamani, D H. Abdel‐Qader, A B. Kassem, et al",
-    "venue": "Expert Opinion on Drug Safety, 2024",
-    "year": "2024",
+    "title": "Knowledge, Attitudes, and Practices of Community Pharmacists Regarding Proton Pump Inhibitor (PPI) Use: A Cross-Sectional Study",
+    "authors": "H Ahmed Mohamed Moustafa, A Z. Al Meslamani, H Mohamed Metwaly Elsayed Ahmed, et al",
+    "venue": "Healthcare, 2025",
+    "year": "2025",
     "cited_by": 4,
-    "link": "https://doi.org/10.1080/14740338.2024.2326488",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
-    "title": "Examining the impact of biosimilar-to-biosimilar transition on effectiveness and safety",
-    "authors": "A S. Jarab, S Abu Heshmeh, A Z. Al Meslamani",
-    "venue": "Expert Opinion on Biological Therapy, 2024",
-    "year": "2024",
-    "cited_by": 4,
-    "link": "https://doi.org/10.1080/14712598.2024.2324123",
+    "link": "https://doi.org/10.3390/healthcare13131588",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -702,30 +729,21 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
-    "title": "Strategies for reducing chronic disease burden during pandemics",
-    "authors": "A Z. Al Meslamani",
-    "venue": "Current Medical Research and Opinion, 2023",
-    "year": "2023",
-    "cited_by": 4,
-    "link": "https://doi.org/10.1080/03007995.2023.2295410",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
-    "title": "Utilization, perceived benefits and concerns regarding robotic technologies among community pharmacists",
-    "authors": "A S. Jarab, A Z. Al Meslamani, W A. Al-Qerem, et al",
-    "venue": "Future Science OA, 2025",
-    "year": "2025",
-    "cited_by": 4,
-    "link": "https://doi.org/10.1080/20565623.2025.2514932",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
     "title": "Antibiotic prescribing errors generated by the use of an electronic prescribing system in the emergency department: A mixed-method study",
     "authors": "A Z. Al Meslamani, D H. Abdel‐Qader, N Ziad, et al",
     "venue": "Journal of Pharmacy & Pharmacognosy Research, 2022",
     "year": "2022",
     "cited_by": 3,
     "link": "https://doi.org/10.56499/jppres21.1149_10.1.104",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
+    "title": "Assessing Knowledge and Awareness of Asthma and Chronic Obstructive Pulmonary Disease Among the Iraqi Population",
+    "authors": "A Hussein Alsajri, W A. Al-Qerem, A S. Jarab, et al",
+    "venue": "International Journal of COPD, 2025",
+    "year": "2025",
+    "cited_by": 3,
+    "link": "https://doi.org/10.2147/copd.s517612",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -756,12 +774,30 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
+    "title": "Development of a multivariable model to predict medication non-adherence risk factor for patients with acute coronary syndrome",
+    "authors": "A Shaban Sadeq, A Ahmed Elnour, A Hamrouni, et al",
+    "venue": "Journal of Pharmaceutical Health Services Research, 2021",
+    "year": "2021",
+    "cited_by": 3,
+    "link": "https://doi.org/10.1093/jphsr/rmab005",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
     "title": "Exploring knowledge, attitudes, and preventive practices related to dengue fever control: a cross-sectional study of 1,016 individuals",
     "authors": "A S. Jarab, W A. Al-Qerem, A Z. Al Meslamani, et al",
     "venue": "Pathogens and Global Health, 2026",
     "year": "2026",
     "cited_by": 3,
     "link": "https://doi.org/10.1080/20477724.2026.2621706",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
+    "title": "Integrating Large Language Models Into UAE Community Pharmacies: Pharmacists′ Perspectives on Benefits, Concerns, and Implementation Barriers",
+    "authors": "A S. Jarab, A Z. Al Meslamani, W Al-Qerem, et al",
+    "venue": "International Journal of Telemedicine and Applications, 2026",
+    "year": "2026",
+    "cited_by": 3,
+    "link": "https://doi.org/10.1155/ijta/8034289",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -801,15 +837,6 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
-    "title": "Assessing Knowledge and Awareness of Asthma and Chronic Obstructive Pulmonary Disease Among the Iraqi Population",
-    "authors": "A Hussein Alsajri, W A. Al-Qerem, A S. Jarab, et al",
-    "venue": "International Journal of COPD, 2025",
-    "year": "2025",
-    "cited_by": 2,
-    "link": "https://doi.org/10.2147/copd.s517612",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
     "title": "Assessing the economic impact of digital endpoints on medication adherence",
     "authors": "A Z. Al Meslamani, N Li",
     "venue": "Expert Review of Pharmacoeconomics & Outcomes Research, 2024",
@@ -837,15 +864,6 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
-    "title": "Development of a multivariable model to predict medication non-adherence risk factor for patients with acute coronary syndrome",
-    "authors": "A Shaban Sadeq, A Ahmed Elnour, A Hamrouni, et al",
-    "venue": "Journal of Pharmaceutical Health Services Research, 2021",
-    "year": "2021",
-    "cited_by": 2,
-    "link": "https://doi.org/10.1093/jphsr/rmab005",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
     "title": "Evaluating the Use of Inhaled Budesonide and Ipratropium Bromide Combination in Patients at High Risk of Acute Respiratory Distress Syndrome Development: A Randomized Controlled Trial",
     "authors": "H Ahmed Mohamed Moustafa, F H. Elbery, A Z. Al Meslamani, et al",
     "venue": "Pharmaceuticals, 2025",
@@ -861,15 +879,6 @@
     "year": "2022",
     "cited_by": 2,
     "link": "https://doi.org/10.57002/jms.v20i1.210",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
-    "title": "Integrating Large Language Models Into UAE Community Pharmacies: Pharmacists′ Perspectives on Benefits, Concerns, and Implementation Barriers",
-    "authors": "A S. Jarab, A Z. Al Meslamani, W Al-Qerem, et al",
-    "venue": "International Journal of Telemedicine and Applications, 2026",
-    "year": "2026",
-    "cited_by": 2,
-    "link": "https://doi.org/10.1155/ijta/8034289",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -945,12 +954,12 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
-    "title": "Are we aware of stroke risk factors and warning signs amid COVID-19? Knowledge and attitude towards risk-factors, signs and symptoms of stroke among the UAE population during COVID-19 pandemic: A cross-sectional study",
-    "authors": "A Ramadan, Z Jaber Kharaba, R Ghemrawi, et al",
-    "venue": "F1000Research, 2023",
-    "year": "2023",
+    "title": "Augmenting immunogenicity workflows with AI and real-world evidence: failure points, tools, and a closed-loop operational blueprint",
+    "authors": "A Z. Al Meslamani, A S. Jarab, E Merghani Ali Mohammed",
+    "venue": "Bioanalysis, 2025",
+    "year": "2025",
     "cited_by": 1,
-    "link": "https://doi.org/10.12688/f1000research.129873.1",
+    "link": "https://doi.org/10.1080/17576180.2026.2614302",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -960,6 +969,15 @@
     "year": "2026",
     "cited_by": 1,
     "link": "https://doi.org/10.1080/14712598.2026.2614429",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
+    "title": "Biosimilars in practice: best-practice immunogenicity assessment and switching/interchangeability strategies for pharmacy-led programs",
+    "authors": "K Abou Hait, A Z. Al Meslamani",
+    "venue": "Bioanalysis, 2026",
+    "year": "2026",
+    "cited_by": 1,
+    "link": "https://doi.org/10.1080/17576180.2026.2664206",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -1008,6 +1026,15 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
+    "title": "Harmonizing immunogenicity for AAV and LNP/mRNA modalities: best-practice panels for binding, neutralizing, and cellular assays with pre-existing immunity controls",
+    "authors": "A Z. Al Meslamani, A S. Jarab, E Merghani Ali Mohammed",
+    "venue": "Bioanalysis, 2026",
+    "year": "2026",
+    "cited_by": 1,
+    "link": "https://doi.org/10.1080/17576180.2026.2638522",
+    "author_id": "usUecnoAAAAJ"
+  },
+  {
     "title": "Human Middle East Respiratory Syndrome Coronavirus (MERS-CoV) research in the Gulf Cooperation Council Countries: A mapping scoping review of epidemiology, clade, and research priority gaps",
     "authors": "R H. Al Rifai, S Majdi Taher, H H. Amoodi, et al",
     "venue": "Journal of Infection and Public Health, 2026",
@@ -1032,15 +1059,6 @@
     "year": "2025",
     "cited_by": 1,
     "link": "https://doi.org/10.1371/journal.pone.0312050",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
-    "title": "Knowledge, Attitudes, and Practices of Community Pharmacists Regarding Proton Pump Inhibitor (PPI) Use: A Cross-Sectional Study",
-    "authors": "H Ahmed Mohamed Moustafa, A Z. Al Meslamani, H Mohamed Metwaly Elsayed Ahmed, et al",
-    "venue": "Healthcare, 2025",
-    "year": "2025",
-    "cited_by": 1,
-    "link": "https://doi.org/10.3390/healthcare13131588",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -1098,15 +1116,6 @@
     "author_id": "usUecnoAAAAJ"
   },
   {
-    "title": "Augmenting immunogenicity workflows with AI and real-world evidence: failure points, tools, and a closed-loop operational blueprint",
-    "authors": "A Z. Al Meslamani, A S. Jarab, E Merghani Ali Mohammed",
-    "venue": "Bioanalysis, 2025",
-    "year": "2025",
-    "cited_by": 0,
-    "link": "https://doi.org/10.1080/17576180.2026.2614302",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
     "title": "Beyond the first switch: multiple switching, cross-switching, and nocebo-aware implementation of biosimilars in real-world care in non-US health systems",
     "authors": "A Z. Al Meslamani, A S. Husam El Sharu, H El Sharu, et al",
     "venue": "Expert Opinion on Biological Therapy, 2026",
@@ -1122,15 +1131,6 @@
     "year": "2026",
     "cited_by": 0,
     "link": "https://doi.org/10.1080/14712598.2026.2631532",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
-    "title": "Biosimilars in practice: best-practice immunogenicity assessment and switching/interchangeability strategies for pharmacy-led programs",
-    "authors": "K Abou Hait, A Z. Al Meslamani",
-    "venue": "Bioanalysis, 2026",
-    "year": "2026",
-    "cited_by": 0,
-    "link": "https://doi.org/10.1080/17576180.2026.2664206",
     "author_id": "usUecnoAAAAJ"
   },
   {
@@ -1176,15 +1176,6 @@
     "year": "2026",
     "cited_by": 0,
     "link": "https://doi.org/10.1080/17576180.2026.2732419",
-    "author_id": "usUecnoAAAAJ"
-  },
-  {
-    "title": "Harmonizing immunogenicity for AAV and LNP/mRNA modalities: best-practice panels for binding, neutralizing, and cellular assays with pre-existing immunity controls",
-    "authors": "A Z. Al Meslamani, A S. Jarab, E Merghani Ali Mohammed",
-    "venue": "Bioanalysis, 2026",
-    "year": "2026",
-    "cited_by": 0,
-    "link": "https://doi.org/10.1080/17576180.2026.2638522",
     "author_id": "usUecnoAAAAJ"
   },
   {
